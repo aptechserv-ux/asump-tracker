@@ -1,0 +1,21 @@
+{
+  "projectId": "CAD",
+  "projectName": "Project CAD - Disaster Communication Network",
+  "category": "ASUMP-existing",
+  "linkedTrackerId": "P-07",
+  "sanctionedValue": 94500000,
+  "implementingAgency": "Police Communications (PCO)",
+  "nodalOfficer": "DIG Police Communications",
+  "milestones": {
+    "floatTenderBy": "2026-08-14",
+    "bidClosing": "2026-08-30",
+    "evalComplete": "2026-09-17",
+    "finalisationDgpApproval": "2026-09-21",
+    "poIssueBy": "2026-09-26",
+    "supplyCompleteBy": "2026-11-30",
+    "commissioningCompleteBy": "2026-12-15"
+  },
+  "notes": "Values match tracker exactly",
+  "lastSynced": "2026-08-11T12:48:17.212Z",
+  "bids": []
+}
