@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASUMP Procurement Register — Andhra Pradesh Police</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#10203A;
+    --steel:#2C5C8F;
+    --steel-dark:#1F4569;
+    --parchment:#F6F5F1;
+    --paper:#FFFFFF;
+    --slate:#5B6472;
+    --hairline:#D9D6CD;
+    --green:#1F7A4D;
+    --green-bg:#E8F3EC;
+    --amber:#B4790A;
+    --amber-bg:#FBF1DE;
+    --red:#A32323;
+    --red-bg:#FBEAEA;
+    --grey-bg:#EEEDE8;
+    --radius:3px;
+    --shadow:0 1px 2px rgba(16,32,58,0.06), 0 4px 12px rgba(16,32,58,0.04);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.01ms !important; transition-duration:0.01ms !important;}
+  }
+  body{
+    margin:0;
+    background:var(--parchment);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'IBM Plex Mono', monospace;}
+  a{color:var(--steel-dark);}
+
+  /* ===== Masthead ===== */
+  .masthead{
+    background:var(--ink);
+    color:#fff;
+    padding:22px 28px 18px;
+    border-bottom:3px solid var(--steel);
+  }
+  .masthead-inner{
+    max-width:1180px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    flex-wrap:wrap;
+    gap:12px;
+  }
+  .masthead-title{
+    font-family:'IBM Plex Sans Condensed', sans-serif;
+    font-weight:700;
+    font-size:1.5rem;
+    letter-spacing:0.02em;
+    text-transform:uppercase;
+    margin:0;
+  }
+  .masthead-sub{
+    margin:4px 0 0;
+    font-size:0.82rem;
+    color:#B9C4D6;
+    font-family:'IBM Plex Mono', monospace;
+  }
+  .sync-badge{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.76rem;
+    color:#B9C4D6;
+    text-align:right;
+  }
+  .sync-badge .dot{
+    display:inline-block;
+    width:7px;height:7px;border-radius:50%;
+    background:var(--green);
+    margin-right:6px;
+    box-shadow:0 0 0 3px rgba(31,122,77,0.25);
+  }
+
+  .wrap{max-width:1180px; margin:0 auto; padding:26px 28px 60px;}
+
+  /* ===== Stat strip ===== */
+  .stats{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:1px;
+    background:var(--hairline);
+    border:1px solid var(--hairline);
+    margin-bottom:28px;
+    border-radius:var(--radius);
+    overflow:hidden;
+  }
+  .stat{
+    background:var(--paper);
+    padding:16px 18px;
+  }
+  .stat-label{
+    font-size:0.7rem;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--slate);
+    margin:0 0 6px;
+  }
+  .stat-value{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size:1.5rem;
+    color:var(--ink);
+  }
+  @media (max-width:720px){ .stats{grid-template-columns:repeat(2,1fr);} }
+
+  /* ===== Filter tabs (file-folder style) ===== */
+  .tabs{
+    display:flex;
+    gap:4px;
+    margin-bottom:2px;
+    flex-wrap:wrap;
+  }
+  .tab{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:0.82rem;
+    font-weight:500;
+    padding:9px 16px 8px;
+    background:var(--grey-bg);
+    color:var(--slate);
+    border:1px solid var(--hairline);
+    border-bottom:none;
+    border-radius:var(--radius) var(--radius) 0 0;
+    cursor:pointer;
+    user-select:none;
+  }
+  .tab:hover{ color:var(--ink); }
+  .tab.active{
+    background:var(--paper);
+    color:var(--ink);
+    font-weight:600;
+    position:relative;
+    top:1px;
+  }
+  .tab:focus-visible{ outline:2px solid var(--steel); outline-offset:2px; }
+
+  .search-row{
+    display:flex; gap:10px; align-items:center; margin:14px 0 18px; flex-wrap:wrap;
+  }
+  .search-input{
+    flex:1; min-width:220px;
+    padding:9px 12px;
+    border:1px solid var(--hairline);
+    border-radius:var(--radius);
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:0.88rem;
+    background:var(--paper);
+  }
+  .search-input:focus-visible{ outline:2px solid var(--steel); outline-offset:1px; }
+
+  /* ===== Register table ===== */
+  .register{
+    border:1px solid var(--hairline);
+    border-radius:var(--radius);
+    overflow:hidden;
+    background:var(--paper);
+  }
+  .reg-head{
+    display:grid;
+    grid-template-columns:1.2fr 2.4fr 1fr 1fr 1fr 24px;
+    padding:10px 16px;
+    background:var(--grey-bg);
+    font-size:0.7rem;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+    color:var(--slate);
+    font-weight:600;
+    border-bottom:1px solid var(--hairline);
+  }
+  .reg-row{
+    border-bottom:1px solid var(--hairline);
+  }
+  .reg-row:last-child{ border-bottom:none; }
+  .reg-row-main{
+    display:grid;
+    grid-template-columns:1.2fr 2.4fr 1fr 1fr 1fr 24px;
+    align-items:center;
+    padding:13px 16px;
+    cursor:pointer;
+    gap:8px;
+  }
+  .reg-row-main:hover{ background:#FAFAF7; }
+  .reg-row-main:focus-visible{ outline:2px solid var(--steel); outline-offset:-2px; }
+  @media (max-width:860px){
+    .reg-head{ display:none; }
+    .reg-row-main{ grid-template-columns:1fr auto; grid-template-areas:"id chev" "name name" "meta meta"; }
+  }
+
+  .p-id{ font-family:'IBM Plex Mono', monospace; font-size:0.78rem; color:var(--steel-dark); font-weight:600; }
+  .p-name{ font-size:0.9rem; color:var(--ink); }
+  .p-name .agency{ display:block; font-size:0.76rem; color:var(--slate); margin-top:2px; }
+  .p-value{ font-family:'IBM Plex Mono', monospace; font-size:0.85rem; text-align:right; padding-right:8px; }
+
+  .chip{
+    display:inline-block;
+    font-size:0.7rem;
+    font-weight:600;
+    padding:3px 9px;
+    border-radius:100px;
+    text-align:center;
+    white-space:nowrap;
+  }
+  .chip-asump{ background:#E3EAF3; color:var(--steel-dark); }
+  .chip-sap{ background:var(--green-bg); color:var(--green); }
+  .chip-cl{ background:var(--amber-bg); color:var(--amber); }
+
+  .chev{
+    width:20px; height:20px;
+    display:flex; align-items:center; justify-content:center;
+    color:var(--slate);
+    transition:transform 0.15s ease;
+  }
+  .reg-row.open .chev{ transform:rotate(90deg); }
+
+  /* ===== Detail panel ===== */
+  .detail{
+    display:none;
+    padding:6px 16px 22px 16px;
+    background:#FBFBF9;
+    border-top:1px dashed var(--hairline);
+  }
+  .reg-row.open .detail{ display:block; }
+
+  .detail-section-label{
+    font-size:0.7rem;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--slate);
+    font-weight:600;
+    margin:18px 0 10px;
+  }
+
+  /* Milestone routing-slip / stamp timeline — signature element */
+  .routing-slip{
+    display:flex;
+    align-items:flex-start;
+    overflow-x:auto;
+    padding:6px 2px 4px;
+    gap:0;
+  }
+  .seal-step{
+    display:flex; flex-direction:column; align-items:center;
+    flex:1; min-width:100px;
+    position:relative;
+  }
+  .seal-step:not(:last-child)::after{
+    content:'';
+    position:absolute;
+    top:17px; left:calc(50% + 20px); right:calc(-50% + 20px);
+    height:2px;
+    background:var(--hairline);
+  }
+  .seal-step.done:not(:last-child)::after{ background:var(--green); }
+  .seal{
+    width:34px; height:34px;
+    border-radius:50%;
+    border:2px solid var(--hairline);
+    background:var(--paper);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.68rem;
+    font-weight:600;
+    color:var(--slate);
+    z-index:1;
+    transform:rotate(-3deg);
+  }
+  .seal-step.done .seal{
+    border-color:var(--green);
+    color:var(--green);
+    background:var(--green-bg);
+  }
+  .seal-step.overdue .seal{
+    border-color:var(--red);
+    color:var(--red);
+    background:var(--red-bg);
+  }
+  .seal-step.next .seal{
+    border-color:var(--amber);
+    color:var(--amber);
+    background:var(--amber-bg);
+    box-shadow:0 0 0 3px rgba(180,121,10,0.15);
+  }
+  .seal-label{
+    font-size:0.66rem;
+    text-align:center;
+    color:var(--slate);
+    margin-top:6px;
+    line-height:1.25;
+    max-width:96px;
+  }
+  .seal-date{
+    font-size:0.64rem;
+    font-family:'IBM Plex Mono', monospace;
+    color:var(--ink);
+    margin-top:2px;
+  }
+
+  /* Bid table */
+  .bid-table{ width:100%; border-collapse:collapse; font-size:0.82rem; }
+  .bid-table th{
+    text-align:left;
+    font-size:0.68rem;
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+    color:var(--slate);
+    padding:6px 10px;
+    border-bottom:1px solid var(--hairline);
+    font-weight:600;
+  }
+  .bid-table td{
+    padding:8px 10px;
+    border-bottom:1px solid var(--hairline);
+    vertical-align:top;
+  }
+  .bid-table td.num{ font-family:'IBM Plex Mono', monospace; text-align:right; }
+  .status-pill{
+    display:inline-block;
+    font-size:0.68rem;
+    font-weight:600;
+    padding:2px 8px;
+    border-radius:100px;
+  }
+  .status-floated, .status-notice{ background:var(--amber-bg); color:var(--amber); }
+  .status-finalised, .status-complete, .status-supplied{ background:var(--green-bg); color:var(--green); }
+  .status-blocked, .status-notfloated{ background:var(--red-bg); color:var(--red); }
+  .status-direct{ background:#EEE6F5; color:#6B3FA0; }
+  .empty-bids{ color:var(--slate); font-size:0.82rem; font-style:italic; padding:6px 2px; }
+  .notes-line{ font-size:0.78rem; color:var(--slate); margin-top:14px; padding-top:10px; border-top:1px solid var(--hairline); }
+
+  .loading, .error-msg{
+    padding:40px 20px; text-align:center; color:var(--slate); font-size:0.9rem;
+  }
+  .error-msg{ color:var(--red); }
+
+  footer{
+    max-width:1180px; margin:36px auto 0; padding:16px 28px 0;
+    border-top:1px solid var(--hairline);
+    font-size:0.74rem; color:var(--slate);
+    font-family:'IBM Plex Mono', monospace;
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div>
+      <p class="masthead-title">ASUMP Procurement Register</p>
+      <p class="masthead-sub">Office of the DGP, Andhra Pradesh &middot; Technical Services Branch</p>
+    </div>
+    <div class="sync-badge" id="syncBadge"><span class="dot"></span>Loading last sync…</div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="stats" id="statsRow">
+    <div class="stat"><p class="stat-label">Projects Tracked</p><p class="stat-value" id="statCount">—</p></div>
+    <div class="stat"><p class="stat-label">Sanctioned Value</p><p class="stat-value" id="statValue">—</p></div>
+    <div class="stat"><p class="stat-label">Tenders Floated</p><p class="stat-value" id="statFloated">—</p></div>
+    <div class="stat"><p class="stat-label">Not Yet Floated</p><p class="stat-value" id="statPending">—</p></div>
+  </div>
+
+  <div class="tabs" id="tabs" role="tablist">
+    <div class="tab active" role="tab" data-filter="all">All Projects</div>
+    <div class="tab" role="tab" data-filter="ASUMP-existing">ASUMP Core (P-01–P-07)</div>
+    <div class="tab" role="tab" data-filter="SAP-new">SAP 2026-27</div>
+    <div class="tab" role="tab" data-filter="CommittedLiability-2025-26">Committed Liabilities</div>
+  </div>
+
+  <div class="search-row">
+    <input class="search-input" id="searchBox" type="text" placeholder="Search by project name, ID, or nodal officer…" aria-label="Search projects">
+  </div>
+
+  <div class="register" id="register">
+    <div class="reg-head">
+      <div>ID</div><div>Project</div><div style="text-align:right;">Sanctioned</div><div>Category</div><div>Bids</div><div></div>
+    </div>
+    <div id="registerBody">
+      <div class="loading">Loading register…</div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  Data refreshes automatically from Google Sheets every 30–60 minutes. Source: data/manifest.json
+</footer>
+
+<script>
+(function(){
+  const MANIFEST_URL = './data/manifest.json';
+  const PROJECT_URL = id => `./data/projects/${id}.json`;
+
+  const state = { manifest: null, projects: {}, filter: 'all', query: '' };
+
+  function fmtCrore(v){
+    if (v === null || v === undefined || v === '') return '—';
+    const cr = v / 1e7;
+    return '₹' + cr.toLocaleString('en-IN', {maximumFractionDigits:2}) + ' Cr';
+  }
+
+  function fmtDate(d){
+    if (!d) return '—';
+    const dt = new Date(d);
+    if (isNaN(dt)) return d;
+    return dt.toLocaleDateString('en-IN', {day:'2-digit', month:'short', year:'numeric'});
+  }
+
+  function categoryChip(cat){
+    if (cat === 'ASUMP-existing') return '<span class="chip chip-asump">ASUMP Core</span>';
+    if (cat === 'SAP-new') return '<span class="chip chip-sap">SAP 2026-27</span>';
+    if (cat === 'CommittedLiability-2025-26') return '<span class="chip chip-cl">Committed Liab.</span>';
+    return '<span class="chip">—</span>';
+  }
+
+  function statusPillClass(status){
+    const s = (status || '').toLowerCase().replace(/[^a-z]/g,'');
+    if (s.includes('direct')) return 'status-direct';
+    if (s.includes('blocked')) return 'status-blocked';
+    if (s.includes('notyetfloated') || s.includes('notfloated')) return 'status-notfloated';
+    if (s.includes('floated') || s.includes('notice')) return 'status-floated';
+    if (s.includes('finalis') || s.includes('complete') || s.includes('supplied')) return 'status-finalised';
+    return 'status-floated';
+  }
+
+  async function loadManifest(){
+    const res = await fetch(MANIFEST_URL, {cache:'no-store'});
+    if (!res.ok) throw new Error('manifest.json not found (' + res.status + ')');
+    return res.json();
+  }
+
+  async function loadProject(id){
+    if (state.projects[id]) return state.projects[id];
+    const res = await fetch(PROJECT_URL(id), {cache:'no-store'});
+    if (!res.ok) throw new Error('project file missing');
+    const data = await res.json();
+    state.projects[id] = data;
+    return data;
+  }
+
+  function renderStats(manifest){
+    const projects = manifest.projects || [];
+    const total = projects.reduce((s,p) => s + (Number(p.sanctionedValue) || 0), 0);
+    document.getElementById('statCount').textContent = projects.length;
+    document.getElementById('statValue').textContent = fmtCrore(total);
+    // Floated/pending counts require bidCount as a proxy until per-bid status is loaded;
+    // refined after detail expand, so show bid-record based estimate here.
+    const floated = projects.filter(p => (p.bidCount || 0) > 0).length;
+    document.getElementById('statFloated').textContent = floated;
+    document.getElementById('statPending').textContent = projects.length - floated;
+
+    const badge = document.getElementById('syncBadge');
+    const dt = manifest.lastSync ? new Date(manifest.lastSync) : null;
+    badge.innerHTML = '<span class="dot"></span>Last synced ' +
+      (dt && !isNaN(dt) ? dt.toLocaleString('en-IN', {dateStyle:'medium', timeStyle:'short'}) : 'unknown');
+  }
+
+  function matchesFilter(p){
+    if (state.filter !== 'all' && p.category !== state.filter) return false;
+    if (state.query){
+      const q = state.query.toLowerCase();
+      const hay = (p.projectId + ' ' + p.projectName).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  }
+
+  function renderRegister(){
+    const body = document.getElementById('registerBody');
+    const projects = (state.manifest.projects || []).filter(matchesFilter)
+      .sort((a,b) => a.projectId.localeCompare(b.projectId));
+
+    if (projects.length === 0){
+      body.innerHTML = '<div class="loading">No projects match this filter.</div>';
+      return;
+    }
+
+    body.innerHTML = projects.map(p => `
+      <div class="reg-row" data-id="${p.projectId}">
+        <div class="reg-row-main" tabindex="0" role="button" aria-expanded="false">
+          <div class="p-id">${p.projectId}</div>
+          <div class="p-name">${p.projectName || p.projectId}</div>
+          <div class="p-value">${fmtCrore(p.sanctionedValue)}</div>
+          <div>${categoryChip(p.category)}</div>
+          <div class="mono" style="font-size:0.78rem;color:var(--slate);">${p.bidCount || 0} record${p.bidCount === 1 ? '' : 's'}</div>
+          <div class="chev">▶</div>
+        </div>
+        <div class="detail" data-loaded="false"></div>
+      </div>
+    `).join('');
+
+    body.querySelectorAll('.reg-row-main').forEach(el => {
+      el.addEventListener('click', () => toggleRow(el));
+      el.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); toggleRow(el); }
+      });
+    });
+  }
+
+  function milestoneSteps(m){
+    const defs = [
+      ['floatTenderBy', 'Float Tender'],
+      ['bidClosing', 'Bid Closing'],
+      ['evalComplete', 'Evaluation'],
+      ['finalisationDgpApproval', 'DGP Approval'],
+      ['poIssueBy', 'PO Issue'],
+      ['supplyCompleteBy', 'Supply Complete'],
+      ['commissioningCompleteBy', 'Commissioning']
+    ];
+    const today = new Date();
+    let nextAssigned = false;
+    return defs.map(([key, label]) => {
+      const raw = m ? m[key] : '';
+      const dt = raw ? new Date(raw) : null;
+      let cls = '';
+      if (dt && !isNaN(dt)){
+        if (dt < today) cls = 'done';
+        else if (!nextAssigned){ cls = 'next'; nextAssigned = true; }
+      }
+      return `<div class="seal-step ${cls}">
+        <div class="seal">${dt && !isNaN(dt) ? dt.getDate() : '–'}</div>
+        <div class="seal-label">${label}</div>
+        <div class="seal-date">${raw ? fmtDate(raw) : 'TBD'}</div>
+      </div>`;
+    }).join('');
+  }
+
+  function bidRows(bids){
+    if (!bids || bids.length === 0){
+      return '<div class="empty-bids">No bids recorded yet — not floated, or tender is direct-purchase pending PO.</div>';
+    }
+    return `<table class="bid-table">
+      <thead><tr>
+        <th>Bid Ref</th><th>Description</th><th>Consignee</th><th>Status</th>
+        <th style="text-align:right;">EMD</th><th style="text-align:right;">Tender Value</th><th>Opening</th>
+      </tr></thead>
+      <tbody>
+        ${bids.map(b => `
+          <tr>
+            <td class="mono">${b.bidRef || '—'}</td>
+            <td>${b.description || '—'}</td>
+            <td>${b.consignee || '—'}</td>
+            <td><span class="status-pill ${statusPillClass(b.status)}">${b.status || 'Pending'}</span></td>
+            <td class="num">${b.emdAmount != null ? '₹' + Number(b.emdAmount).toLocaleString('en-IN') : '—'}</td>
+            <td class="num">${b.tenderValue != null ? fmtCrore(b.tenderValue) : '—'}</td>
+            <td class="mono">${fmtDate(b.openingDate)}</td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>`;
+  }
+
+  async function toggleRow(rowMainEl){
+    const row = rowMainEl.closest('.reg-row');
+    const isOpen = row.classList.contains('open');
+    // close any other open row for a cleaner single-focus view on mobile
+    document.querySelectorAll('.reg-row.open').forEach(r => { if (r !== row) r.classList.remove('open'); });
+
+    row.classList.toggle('open', !isOpen);
+    rowMainEl.setAttribute('aria-expanded', String(!isOpen));
+    if (isOpen) return;
+
+    const detail = row.querySelector('.detail');
+    if (detail.dataset.loaded === 'true') return;
+
+    detail.innerHTML = '<div class="loading">Loading project detail…</div>';
+    try {
+      const id = row.dataset.id;
+      const data = await loadProject(id);
+      detail.innerHTML = `
+        <div class="detail-section-label">Implementation Timeline</div>
+        <div class="routing-slip">${milestoneSteps(data.milestones)}</div>
+        <div class="detail-section-label">Bids &amp; Purchase Orders</div>
+        ${bidRows(data.bids)}
+        ${data.notes ? `<div class="notes-line"><strong>Notes:</strong> ${data.notes}</div>` : ''}
+        ${data.implementingAgency ? `<div class="notes-line" style="border-top:none;padding-top:0;"><strong>Implementing Agency:</strong> ${data.implementingAgency}${data.nodalOfficer ? ' · Nodal: ' + data.nodalOfficer : ''}</div>` : ''}
+      `;
+      detail.dataset.loaded = 'true';
+    } catch (e) {
+      detail.innerHTML = `<div class="error-msg">Could not load detail for this project (${e.message}). It may not have synced yet.</div>`;
+    }
+  }
+
+  function bindControls(){
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        state.filter = tab.dataset.filter;
+        renderRegister();
+      });
+    });
+    document.getElementById('searchBox').addEventListener('input', e => {
+      state.query = e.target.value.trim();
+      renderRegister();
+    });
+  }
+
+  async function init(){
+    bindControls();
+    try {
+      const manifest = await loadManifest();
+      state.manifest = manifest;
+      renderStats(manifest);
+      renderRegister();
+    } catch (e) {
+      document.getElementById('registerBody').innerHTML =
+        `<div class="error-msg">Could not load the register (${e.message}).<br>Check that data/manifest.json exists in this repository and that a sync has run at least once.</div>`;
+      document.getElementById('syncBadge').textContent = 'Sync status unavailable';
+    }
+  }
+
+  init();
+})();
+</script>
+
+</body>
+</html>
