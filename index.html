@@ -147,6 +147,34 @@
   }
   .tab:focus-visible{ outline:2px solid var(--steel); outline-offset:2px; }
 
+  .legend{
+    display:flex; flex-wrap:wrap; gap:18px;
+    padding:10px 14px;
+    background:var(--paper);
+    border:1px solid var(--hairline);
+    border-radius:var(--radius);
+    margin-bottom:14px;
+    font-size:0.76rem;
+    color:var(--slate);
+  }
+  .legend-group{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .legend-title{ font-weight:600; color:var(--ink); }
+  .legend-item{ display:flex; align-items:center; gap:5px; white-space:nowrap; }
+  .seal-swatch{
+    width:12px; height:12px; border-radius:50%;
+    border:2px solid var(--hairline); background:var(--paper); display:inline-block;
+  }
+  .seal-swatch.done{ border-color:var(--green); background:var(--green-bg); }
+  .seal-swatch.next{ border-color:var(--amber); background:var(--amber-bg); }
+  .seal-swatch.overdue{ border-color:var(--red); background:var(--red-bg); }
+  .pill-swatch{
+    width:12px; height:12px; border-radius:100px; display:inline-block;
+  }
+  .pill-swatch.status-notfloated{ background:var(--red-bg); border:1px solid var(--red); }
+  .pill-swatch.status-floated{ background:var(--amber-bg); border:1px solid var(--amber); }
+  .pill-swatch.status-finalised{ background:var(--green-bg); border:1px solid var(--green); }
+  .pill-swatch.status-direct{ background:#EEE6F5; border:1px solid #6B3FA0; }
+
   .search-row{
     display:flex; gap:10px; align-items:center; margin:14px 0 18px; flex-wrap:wrap;
   }
@@ -213,7 +241,6 @@
     text-align:center;
     white-space:nowrap;
   }
-  .chip-asump{ background:#E3EAF3; color:var(--steel-dark); }
   .chip-sap{ background:var(--green-bg); color:var(--green); }
   .chip-cl{ background:var(--amber-bg); color:var(--amber); }
 
@@ -264,6 +291,7 @@
     background:var(--hairline);
   }
   .seal-step.done:not(:last-child)::after{ background:var(--green); }
+  .seal-step.overdue:not(:last-child)::after{ background:var(--red); }
   .seal{
     width:34px; height:34px;
     border-radius:50%;
@@ -376,9 +404,25 @@
 
   <div class="tabs" id="tabs" role="tablist">
     <div class="tab active" role="tab" data-filter="all">All Projects</div>
-    <div class="tab" role="tab" data-filter="ASUMP-existing">ASUMP Core (P-01–P-07)</div>
-    <div class="tab" role="tab" data-filter="SAP-new">SAP 2026-27</div>
+    <div class="tab" role="tab" data-filter="SAP-2026-27">SAP 2026-27</div>
     <div class="tab" role="tab" data-filter="CommittedLiability-2025-26">Committed Liabilities</div>
+  </div>
+
+  <div class="legend" id="legend">
+    <div class="legend-group">
+      <span class="legend-title">Milestone status:</span>
+      <span class="legend-item"><span class="seal-swatch done"></span>Reached</span>
+      <span class="legend-item"><span class="seal-swatch next"></span>Next up</span>
+      <span class="legend-item"><span class="seal-swatch overdue"></span>Overdue</span>
+      <span class="legend-item"><span class="seal-swatch"></span>Not yet due</span>
+    </div>
+    <div class="legend-group">
+      <span class="legend-title">Bid status:</span>
+      <span class="legend-item"><span class="pill-swatch status-notfloated"></span>Not floated / Blocked</span>
+      <span class="legend-item"><span class="pill-swatch status-floated"></span>Floated</span>
+      <span class="legend-item"><span class="pill-swatch status-finalised"></span>Finalised / Complete</span>
+      <span class="legend-item"><span class="pill-swatch status-direct"></span>Direct Order</span>
+    </div>
   </div>
 
   <div class="search-row">
@@ -421,8 +465,7 @@
   }
 
   function categoryChip(cat){
-    if (cat === 'ASUMP-existing') return '<span class="chip chip-asump">ASUMP Core</span>';
-    if (cat === 'SAP-new') return '<span class="chip chip-sap">SAP 2026-27</span>';
+    if (cat === 'ASUMP-existing' || cat === 'SAP-new') return '<span class="chip chip-sap">SAP 2026-27</span>';
     if (cat === 'CommittedLiability-2025-26') return '<span class="chip chip-cl">Committed Liab.</span>';
     return '<span class="chip">—</span>';
   }
@@ -470,7 +513,11 @@
   }
 
   function matchesFilter(p){
-    if (state.filter !== 'all' && p.category !== state.filter) return false;
+    if (state.filter === 'SAP-2026-27'){
+      if (p.category !== 'ASUMP-existing' && p.category !== 'SAP-new') return false;
+    } else if (state.filter !== 'all' && p.category !== state.filter){
+      return false;
+    }
     if (state.query){
       const q = state.query.toLowerCase();
       const hay = (p.projectId + ' ' + p.projectName).toLowerCase();
@@ -511,7 +558,30 @@
     });
   }
 
-  function milestoneSteps(m){
+  // Maps a bid's free-text status to how far along the 7-phase milestone
+  // sequence it implies the project has progressed. Conservative: unknown
+  // or unrecognised status text counts as "not yet reached" rather than
+  // guessing it's further along than it is.
+  function bidStatusToStageIndex(status){
+    const s = (status || '').toLowerCase().replace(/[^a-z]/g,'');
+    if (s.includes('blocked') || s.includes('notfloated') || s === '') return -1;
+    if (s.includes('commission') || s.includes('complete') || s.includes('installed')) return 6;
+    if (s.includes('supplied') || s.includes('delivered')) return 5;
+    if (s.includes('direct') || s.includes('poissued') || s.includes('dgapproval')) return 4;
+    if (s.includes('finalis') || s.includes('finaliz') || s.includes('awarded') || s.includes('l1')) return 3;
+    if (s.includes('floated') || s.includes('notice')) return 0;
+    return -1;
+  }
+
+  // A project's overall reached stage is the LEAST advanced of its bids —
+  // one lagging bid means the project as a whole hasn't cleared that phase.
+  // Projects with zero bid records are treated as stage -1 (nothing reached).
+  function projectReachedStage(bids){
+    if (!bids || bids.length === 0) return -1;
+    return Math.min(...bids.map(b => bidStatusToStageIndex(b.status)));
+  }
+
+  function milestoneSteps(m, bids){
     const defs = [
       ['floatTenderBy', 'Float Tender'],
       ['bidClosing', 'Bid Closing'],
@@ -522,17 +592,26 @@
       ['commissioningCompleteBy', 'Commissioning']
     ];
     const today = new Date();
+    const reachedStage = projectReachedStage(bids);
     let nextAssigned = false;
-    return defs.map(([key, label]) => {
+
+    return defs.map(([key, label], i) => {
       const raw = m ? m[key] : '';
       const dt = raw ? new Date(raw) : null;
+      const hasDate = dt && !isNaN(dt);
       let cls = '';
-      if (dt && !isNaN(dt)){
-        if (dt < today) cls = 'done';
-        else if (!nextAssigned){ cls = 'next'; nextAssigned = true; }
+
+      if (i <= reachedStage){
+        cls = 'done';
+      } else if (hasDate && dt < today){
+        cls = 'overdue';
+      } else if (!nextAssigned){
+        cls = 'next';
+        nextAssigned = true;
       }
+
       return `<div class="seal-step ${cls}">
-        <div class="seal">${dt && !isNaN(dt) ? dt.getDate() : '–'}</div>
+        <div class="seal">${hasDate ? dt.getDate() : '–'}</div>
         <div class="seal-label">${label}</div>
         <div class="seal-date">${raw ? fmtDate(raw) : 'TBD'}</div>
       </div>`;
@@ -583,7 +662,7 @@
       const data = await loadProject(id);
       detail.innerHTML = `
         <div class="detail-section-label">Implementation Timeline</div>
-        <div class="routing-slip">${milestoneSteps(data.milestones)}</div>
+        <div class="routing-slip">${milestoneSteps(data.milestones, data.bids)}</div>
         <div class="detail-section-label">Bids &amp; Purchase Orders</div>
         ${bidRows(data.bids)}
         ${data.notes ? `<div class="notes-line"><strong>Notes:</strong> ${data.notes}</div>` : ''}
