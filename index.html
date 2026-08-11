@@ -502,19 +502,21 @@
     return data;
   }
 
-  function renderStats(manifest){
-    const projects = manifest.projects || [];
+  function filteredProjects(){
+    return (state.manifest.projects || []).filter(matchesFilter);
+  }
+
+  function renderStats(){
+    const projects = filteredProjects();
     const total = projects.reduce((s,p) => s + (Number(p.sanctionedValue) || 0), 0);
     document.getElementById('statCount').textContent = projects.length;
     document.getElementById('statValue').textContent = fmtCrore(total);
-    // Floated/pending counts require bidCount as a proxy until per-bid status is loaded;
-    // refined after detail expand, so show bid-record based estimate here.
     const floated = projects.filter(p => (p.bidCount || 0) > 0).length;
     document.getElementById('statFloated').textContent = floated;
     document.getElementById('statPending').textContent = projects.length - floated;
 
     const badge = document.getElementById('syncBadge');
-    const dt = manifest.lastSync ? new Date(manifest.lastSync) : null;
+    const dt = state.manifest.lastSync ? new Date(state.manifest.lastSync) : null;
     badge.innerHTML = '<span class="dot"></span>Last synced ' +
       (dt && !isNaN(dt) ? dt.toLocaleString('en-IN', {dateStyle:'medium', timeStyle:'short'}) : 'unknown');
   }
@@ -535,8 +537,7 @@
 
   function renderRegister(){
     const body = document.getElementById('registerBody');
-    const projects = (state.manifest.projects || []).filter(matchesFilter)
-      .sort((a,b) => a.projectId.localeCompare(b.projectId));
+    const projects = filteredProjects().sort((a,b) => a.projectId.localeCompare(b.projectId));
 
     if (projects.length === 0){
       body.innerHTML = '<div class="loading">No projects match this filter.</div>';
@@ -702,11 +703,13 @@
         document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
         state.filter = tab.dataset.filter;
+        renderStats();
         renderRegister();
       });
     });
     document.getElementById('searchBox').addEventListener('input', e => {
       state.query = e.target.value.trim();
+      renderStats();
       renderRegister();
     });
   }
@@ -716,7 +719,7 @@
     try {
       const manifest = await loadManifest();
       state.manifest = manifest;
-      renderStats(manifest);
+      renderStats();
       renderRegister();
     } catch (e) {
       document.getElementById('registerBody').innerHTML =
