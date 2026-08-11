@@ -1,7 +1,70 @@
 {
-  "lastSync": "2026-08-11T12:42:01.184Z",
-  "projectCount": 16,
+  "lastSync": "2026-08-11T12:48:37.154Z",
+  "projectCount": 23,
   "projects": [
+    {
+      "projectId": "CCTNS",
+      "projectName": "CCTNS 2.0 - Data Migration & System Integration",
+      "category": "ASUMP-existing",
+      "linkedTrackerId": "P-01",
+      "sanctionedValue": 80000000,
+      "bidCount": 0,
+      "lastSynced": "2026-08-11T12:48:09.986Z"
+    },
+    {
+      "projectId": "CCTV",
+      "projectName": "CCTV Surveillance & Centralized Dashboard/VMS (1029 PSs)",
+      "category": "ASUMP-existing",
+      "linkedTrackerId": "P-02",
+      "sanctionedValue": 549900000,
+      "bidCount": 0,
+      "lastSynced": "2026-08-11T12:48:11.423Z"
+    },
+    {
+      "projectId": "KAVACH",
+      "projectName": "AP KAVACH - AI Crime Analytics Platform",
+      "category": "ASUMP-existing",
+      "linkedTrackerId": "P-03",
+      "sanctionedValue": 127000000,
+      "bidCount": 0,
+      "lastSynced": "2026-08-11T12:48:12.580Z"
+    },
+    {
+      "projectId": "ICDSO",
+      "projectName": "ICDSO - Integrated Cyber Defence & Security Ops Centre (renamed ICDSI - Data Centre Upgradation)",
+      "category": "ASUMP-existing",
+      "linkedTrackerId": "P-04",
+      "sanctionedValue": 135100000,
+      "bidCount": 0,
+      "lastSynced": "2026-08-11T12:48:13.734Z"
+    },
+    {
+      "projectId": "UECCR",
+      "projectName": "UECCR - Emergency Command & Control (MDTs E&P)",
+      "category": "ASUMP-existing",
+      "linkedTrackerId": "P-05",
+      "sanctionedValue": 97600000,
+      "bidCount": 0,
+      "lastSynced": "2026-08-11T12:48:14.867Z"
+    },
+    {
+      "projectId": "STRIKE",
+      "projectName": "STRIKE - Counter-Terror Tactical Response / OCTOPUS",
+      "category": "ASUMP-existing",
+      "linkedTrackerId": "P-06",
+      "sanctionedValue": 108100000,
+      "bidCount": 0,
+      "lastSynced": "2026-08-11T12:48:15.982Z"
+    },
+    {
+      "projectId": "CAD",
+      "projectName": "Project CAD - Disaster Communication Network",
+      "category": "ASUMP-existing",
+      "linkedTrackerId": "P-07",
+      "sanctionedValue": 94500000,
+      "bidCount": 0,
+      "lastSynced": "2026-08-11T12:48:17.212Z"
+    },
     {
       "projectId": "PRAHAR",
       "projectName": "PRAHAR - APSP Reorientation & Equipment",
@@ -9,7 +72,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 193200000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:42.405Z"
+      "lastSynced": "2026-08-11T12:48:18.298Z"
     },
     {
       "projectId": "MOSAIC",
@@ -18,7 +81,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 45000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:43.550Z"
+      "lastSynced": "2026-08-11T12:48:20.017Z"
     },
     {
       "projectId": "CDMP",
@@ -27,7 +90,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 35000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:44.781Z"
+      "lastSynced": "2026-08-11T12:48:21.185Z"
     },
     {
       "projectId": "SAMUDRARAKSHA",
@@ -36,7 +99,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 99900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:45.967Z"
+      "lastSynced": "2026-08-11T12:48:22.397Z"
     },
     {
       "projectId": "TRACE",
@@ -45,7 +108,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 78900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:47.088Z"
+      "lastSynced": "2026-08-11T12:48:23.498Z"
     },
     {
       "projectId": "SENTINEL2",
@@ -54,7 +117,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 92700000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:48.232Z"
+      "lastSynced": "2026-08-11T12:48:24.684Z"
     },
     {
       "projectId": "DRUSTI",
@@ -63,7 +126,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 55300000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:49.323Z"
+      "lastSynced": "2026-08-11T12:48:25.782Z"
     },
     {
       "projectId": "GRPSURV",
@@ -72,7 +135,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 38600000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:50.509Z"
+      "lastSynced": "2026-08-11T12:48:26.912Z"
     },
     {
       "projectId": "CCTVFORENSIC",
@@ -81,7 +144,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 71100000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:52.215Z"
+      "lastSynced": "2026-08-11T12:48:28.066Z"
     },
     {
       "projectId": "MCPVIP",
@@ -90,7 +153,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 56100000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:53.269Z"
+      "lastSynced": "2026-08-11T12:48:29.286Z"
     },
     {
       "projectId": "SAARATHI2",
@@ -99,7 +162,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 32400000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:54.441Z"
+      "lastSynced": "2026-08-11T12:48:30.412Z"
     },
     {
       "projectId": "SENTINELCL",
@@ -108,7 +171,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 51400000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:55.574Z"
+      "lastSynced": "2026-08-11T12:48:31.485Z"
     },
     {
       "projectId": "ELITE",
@@ -117,7 +180,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 24600000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:56.829Z"
+      "lastSynced": "2026-08-11T12:48:32.561Z"
     },
     {
       "projectId": "PRISM",
@@ -126,7 +189,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 75000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:57.910Z"
+      "lastSynced": "2026-08-11T12:48:33.584Z"
     },
     {
       "projectId": "AMMOTRAIN",
@@ -135,7 +198,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 64900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:41:59.017Z"
+      "lastSynced": "2026-08-11T12:48:34.700Z"
     },
     {
       "projectId": "SPLABS",
@@ -144,7 +207,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 167900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:42:00.185Z"
+      "lastSynced": "2026-08-11T12:48:36.265Z"
     }
   ]
 }
