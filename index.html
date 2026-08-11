@@ -354,6 +354,13 @@
     vertical-align:top;
   }
   .bid-table td.num{ font-family:'IBM Plex Mono', monospace; text-align:right; }
+  .bid-table td a{
+    color:var(--steel-dark);
+    text-decoration:none;
+    border-bottom:1px dotted var(--steel-dark);
+  }
+  .bid-table td a:hover{ border-bottom-style:solid; }
+  .bid-table td a::after{ content:' ↗'; font-size:0.7em; }
   .status-pill{
     display:inline-block;
     font-size:0.68rem;
@@ -618,6 +625,21 @@
     }).join('');
   }
 
+  function escapeHtml(str){
+    return String(str == null ? '' : str)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  }
+
+  function safeBidLink(bidRef, bidUrl){
+    const label = escapeHtml(bidRef || '—');
+    const url = (bidUrl || '').trim();
+    if (/^https?:\/\//i.test(url)){
+      return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+    }
+    return label;
+  }
+
   function bidRows(bids){
     if (!bids || bids.length === 0){
       return '<div class="empty-bids">No bids recorded yet — not floated, or tender is direct-purchase pending PO.</div>';
@@ -630,10 +652,10 @@
       <tbody>
         ${bids.map(b => `
           <tr>
-            <td class="mono">${b.bidRef || '—'}</td>
-            <td>${b.description || '—'}</td>
-            <td>${b.consignee || '—'}</td>
-            <td><span class="status-pill ${statusPillClass(b.status)}">${b.status || 'Pending'}</span></td>
+            <td class="mono">${safeBidLink(b.bidRef, b.bidUrl)}</td>
+            <td>${escapeHtml(b.description) || '—'}</td>
+            <td>${escapeHtml(b.consignee) || '—'}</td>
+            <td><span class="status-pill ${statusPillClass(b.status)}">${escapeHtml(b.status) || 'Pending'}</span></td>
             <td class="num">${b.emdAmount != null ? '₹' + Number(b.emdAmount).toLocaleString('en-IN') : '—'}</td>
             <td class="num">${b.tenderValue != null ? fmtCrore(b.tenderValue) : '—'}</td>
             <td class="mono">${fmtDate(b.openingDate)}</td>
