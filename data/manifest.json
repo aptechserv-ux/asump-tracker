@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-08-11T12:48:37.154Z",
+  "lastSync": "2026-08-11T13:18:34.457Z",
   "projectCount": 23,
   "projects": [
     {
@@ -9,7 +9,7 @@
       "linkedTrackerId": "P-01",
       "sanctionedValue": 80000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:09.986Z"
+      "lastSynced": "2026-08-11T13:18:04.348Z"
     },
     {
       "projectId": "CCTV",
@@ -18,7 +18,7 @@
       "linkedTrackerId": "P-02",
       "sanctionedValue": 549900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:11.423Z"
+      "lastSynced": "2026-08-11T13:18:05.549Z"
     },
     {
       "projectId": "KAVACH",
@@ -27,7 +27,7 @@
       "linkedTrackerId": "P-03",
       "sanctionedValue": 127000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:12.580Z"
+      "lastSynced": "2026-08-11T13:18:06.702Z"
     },
     {
       "projectId": "ICDSO",
@@ -36,7 +36,7 @@
       "linkedTrackerId": "P-04",
       "sanctionedValue": 135100000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:13.734Z"
+      "lastSynced": "2026-08-11T13:18:07.831Z"
     },
     {
       "projectId": "UECCR",
@@ -45,7 +45,7 @@
       "linkedTrackerId": "P-05",
       "sanctionedValue": 97600000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:14.867Z"
+      "lastSynced": "2026-08-11T13:18:09.136Z"
     },
     {
       "projectId": "STRIKE",
@@ -54,7 +54,7 @@
       "linkedTrackerId": "P-06",
       "sanctionedValue": 108100000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:15.982Z"
+      "lastSynced": "2026-08-11T13:18:10.316Z"
     },
     {
       "projectId": "CAD",
@@ -63,7 +63,7 @@
       "linkedTrackerId": "P-07",
       "sanctionedValue": 94500000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:17.212Z"
+      "lastSynced": "2026-08-11T13:18:11.566Z"
     },
     {
       "projectId": "PRAHAR",
@@ -72,7 +72,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 193200000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:18.298Z"
+      "lastSynced": "2026-08-11T13:18:12.759Z"
     },
     {
       "projectId": "MOSAIC",
@@ -81,7 +81,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 45000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:20.017Z"
+      "lastSynced": "2026-08-11T13:18:14.116Z"
     },
     {
       "projectId": "CDMP",
@@ -90,7 +90,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 35000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:21.185Z"
+      "lastSynced": "2026-08-11T13:18:15.392Z"
     },
     {
       "projectId": "SAMUDRARAKSHA",
@@ -99,7 +99,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 99900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:22.397Z"
+      "lastSynced": "2026-08-11T13:18:17.386Z"
     },
     {
       "projectId": "TRACE",
@@ -108,7 +108,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 78900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:23.498Z"
+      "lastSynced": "2026-08-11T13:18:18.503Z"
     },
     {
       "projectId": "SENTINEL2",
@@ -117,7 +117,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 92700000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:24.684Z"
+      "lastSynced": "2026-08-11T13:18:19.712Z"
     },
     {
       "projectId": "DRUSTI",
@@ -126,7 +126,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 55300000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:25.782Z"
+      "lastSynced": "2026-08-11T13:18:21.197Z"
     },
     {
       "projectId": "GRPSURV",
@@ -135,7 +135,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 38600000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:26.912Z"
+      "lastSynced": "2026-08-11T13:18:22.780Z"
     },
     {
       "projectId": "CCTVFORENSIC",
@@ -144,7 +144,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 71100000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:28.066Z"
+      "lastSynced": "2026-08-11T13:18:23.918Z"
     },
     {
       "projectId": "MCPVIP",
@@ -153,7 +153,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 56100000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:29.286Z"
+      "lastSynced": "2026-08-11T13:18:25.143Z"
     },
     {
       "projectId": "SAARATHI2",
@@ -162,7 +162,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 32400000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:30.412Z"
+      "lastSynced": "2026-08-11T13:18:26.776Z"
     },
     {
       "projectId": "SENTINELCL",
@@ -171,7 +171,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 51400000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:31.485Z"
+      "lastSynced": "2026-08-11T13:18:28.014Z"
     },
     {
       "projectId": "ELITE",
@@ -180,7 +180,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 24600000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:32.561Z"
+      "lastSynced": "2026-08-11T13:18:30.039Z"
     },
     {
       "projectId": "PRISM",
@@ -189,7 +189,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 75000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:33.584Z"
+      "lastSynced": "2026-08-11T13:18:31.164Z"
     },
     {
       "projectId": "AMMOTRAIN",
@@ -198,7 +198,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 64900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:34.700Z"
+      "lastSynced": "2026-08-11T13:18:32.394Z"
     },
     {
       "projectId": "SPLABS",
@@ -207,7 +207,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 167900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T12:48:36.265Z"
+      "lastSynced": "2026-08-11T13:18:33.558Z"
     }
   ]
 }
