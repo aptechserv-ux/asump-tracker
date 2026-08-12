@@ -1,7 +1,7 @@
 {
   "projectId": "KAVACH",
   "projectName": "AP KAVACH - AI Crime Analytics Platform",
-  "category": "ASUMP-existing",
+  "category": "SAP 2026-27",
   "linkedTrackerId": "P-03",
   "sanctionedValue": 127000000,
   "implementingAgency": "Technical Services",
@@ -16,7 +16,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Sanctioned value taken from P-03 tracker (final",
-  "lastSynced": "2026-08-12T14:47:09.911Z",
+  "lastSynced": "2026-08-12T16:37:38.855Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7895776",
