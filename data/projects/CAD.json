@@ -1,7 +1,7 @@
 {
   "projectId": "CAD",
   "projectName": "Project CAD - Disaster Communication Network",
-  "category": "ASUMP-existing",
+  "category": "SAP 2026-27",
   "linkedTrackerId": "P-07",
   "sanctionedValue": 94500000,
   "implementingAgency": "Police Communications (PCO)",
@@ -16,7 +16,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Values match tracker exactly",
-  "lastSynced": "2026-08-12T14:47:15.277Z",
+  "lastSynced": "2026-08-12T16:37:42.499Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7871272",
