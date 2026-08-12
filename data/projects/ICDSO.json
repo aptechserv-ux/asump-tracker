@@ -1,7 +1,7 @@
 {
   "projectId": "ICDSO",
   "projectName": "ICDSO - Integrated Cyber Defence & Security Ops Centre (renamed ICDSI - Data Centre Upgradation)",
-  "category": "ASUMP-existing",
+  "category": "SAP 2026-27",
   "linkedTrackerId": "P-04",
   "sanctionedValue": 135100000,
   "implementingAgency": "DGP CID / IGP Cyber Crime",
@@ -16,7 +16,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Confirmed mapping to P-04; project was renamed ICDSO -> ICDSI (Data Centre Upgradation)",
-  "lastSynced": "2026-08-12T14:47:12.160Z",
+  "lastSynced": "2026-08-12T16:37:39.992Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7851769",
