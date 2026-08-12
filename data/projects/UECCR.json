@@ -1,7 +1,7 @@
 {
   "projectId": "UECCR",
   "projectName": "UECCR - Emergency Command & Control (MDTs E&P)",
-  "category": "ASUMP-existing",
+  "category": "SAP 2026-27",
   "linkedTrackerId": "P-05",
   "sanctionedValue": 97600000,
   "implementingAgency": "Technical Services",
@@ -16,7 +16,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Values match tracker closely (9.72 vs 9.76 Cr)",
-  "lastSynced": "2026-08-12T14:47:13.807Z",
+  "lastSynced": "2026-08-12T16:37:41.272Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7875015",
