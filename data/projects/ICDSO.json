@@ -16,6 +16,21 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Confirmed mapping to P-04; project was renamed ICDSO -> ICDSI (Data Centre Upgradation)",
-  "lastSynced": "2026-08-12T04:37:44.520Z",
-  "bids": []
+  "lastSynced": "2026-08-12T14:47:12.160Z",
+  "bids": [
+    {
+      "bidRef": "GEM/2026/B/7851769",
+      "description": "Data Center Hardware and Software",
+      "emdRate": 0.02,
+      "emdAmount": 1842000,
+      "tenderValue": 92100000,
+      "status": "Tender floated",
+      "consignee": "Supdt.pcs",
+      "tenderDate": "2026-07-30",
+      "openingDate": "2026-08-19",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    }
+  ]
 }
