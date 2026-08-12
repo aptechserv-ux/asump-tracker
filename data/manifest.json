@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-08-12T12:38:09.819Z",
+  "lastSync": "2026-08-12T14:38:12.001Z",
   "projectCount": 16,
   "projects": [
     {
@@ -9,7 +9,7 @@
       "linkedTrackerId": "P-01",
       "sanctionedValue": 80000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:37:39.666Z"
+      "lastSynced": "2026-08-12T14:37:40.992Z"
     },
     {
       "projectId": "PRAHAR",
@@ -18,7 +18,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 193200000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:37:42.975Z"
+      "lastSynced": "2026-08-12T14:37:45.213Z"
     },
     {
       "projectId": "MOSAIC",
@@ -27,7 +27,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 45000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:37:44.577Z"
+      "lastSynced": "2026-08-12T14:37:47.131Z"
     },
     {
       "projectId": "CDMP",
@@ -36,7 +36,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 35000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:37:47.558Z"
+      "lastSynced": "2026-08-12T14:37:48.960Z"
     },
     {
       "projectId": "SAMUDRARAKSHA",
@@ -45,7 +45,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 99900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:37:49.369Z"
+      "lastSynced": "2026-08-12T14:37:50.938Z"
     },
     {
       "projectId": "TRACE",
@@ -54,7 +54,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 78900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:37:50.737Z"
+      "lastSynced": "2026-08-12T14:37:53.706Z"
     },
     {
       "projectId": "SENTINEL2",
@@ -63,7 +63,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 92700000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:37:52.699Z"
+      "lastSynced": "2026-08-12T14:37:55.523Z"
     },
     {
       "projectId": "DRUSTI",
@@ -72,7 +72,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 55300000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:37:54.224Z"
+      "lastSynced": "2026-08-12T14:37:56.946Z"
     },
     {
       "projectId": "GRPSURV",
@@ -81,7 +81,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 38600000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:37:56.209Z"
+      "lastSynced": "2026-08-12T14:37:58.310Z"
     },
     {
       "projectId": "CCTVFORENSIC",
@@ -90,7 +90,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 71100000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:37:57.919Z"
+      "lastSynced": "2026-08-12T14:38:00.066Z"
     },
     {
       "projectId": "MCPVIP",
@@ -99,7 +99,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 56100000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:37:59.728Z"
+      "lastSynced": "2026-08-12T14:38:01.777Z"
     },
     {
       "projectId": "SAARATHI2",
@@ -108,7 +108,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 32400000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:38:01.301Z"
+      "lastSynced": "2026-08-12T14:38:03.276Z"
     },
     {
       "projectId": "SENTINELCL",
@@ -117,7 +117,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 51400000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:38:03.124Z"
+      "lastSynced": "2026-08-12T14:38:05.026Z"
     },
     {
       "projectId": "PRISM",
@@ -126,7 +126,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 75000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:38:04.763Z"
+      "lastSynced": "2026-08-12T14:38:07.276Z"
     },
     {
       "projectId": "AMMOTRAIN",
@@ -135,7 +135,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 64900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:38:07.117Z"
+      "lastSynced": "2026-08-12T14:38:08.874Z"
     },
     {
       "projectId": "SPLABS",
@@ -144,7 +144,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 167900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-12T12:38:08.614Z"
+      "lastSynced": "2026-08-12T14:38:10.704Z"
     }
   ]
 }
