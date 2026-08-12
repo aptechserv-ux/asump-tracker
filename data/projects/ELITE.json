@@ -16,6 +16,77 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Procurement of 2nd-phase items in progress",
-  "lastSynced": "2026-08-12T04:38:10.027Z",
-  "bids": []
+  "lastSynced": "2026-08-12T14:47:40.402Z",
+  "bids": [
+    {
+      "bidRef": "GEM/2026/B/7870959",
+      "description": "Purchase of Drone with accessories and spare batteries - 3 nos.",
+      "emdRate": "-",
+      "emdAmount": null,
+      "tenderValue": 4800000,
+      "status": "Bid Published",
+      "consignee": "raju.pragada",
+      "tenderDate": "03.08.2026",
+      "openingDate": "14.08.2026",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/7871467",
+      "description": "Purchase of Night Vision Monoculars - 10 nos.",
+      "emdRate": 0.02,
+      "emdAmount": 120000,
+      "tenderValue": 6000000,
+      "status": "Bid Published",
+      "consignee": "raju.pragada",
+      "tenderDate": "03.08.2026",
+      "openingDate": "14.08.2026",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/7871296",
+      "description": "Purchase of Mechanical Power Ascender - 1 no.",
+      "emdRate": 0.02,
+      "emdAmount": 44000,
+      "tenderValue": 2200000,
+      "status": "Bid Published",
+      "consignee": "raju.pragada",
+      "tenderDate": "03.08.2026",
+      "openingDate": "14.08.2026",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/7905824",
+      "description": "Purchase of Portable Explosive Detector (EVD) - 1 no. from PSU",
+      "emdRate": "-",
+      "emdAmount": null,
+      "tenderValue": 3300000,
+      "status": "Bid Published",
+      "consignee": "raju.pragada",
+      "tenderDate": "11.08.2026",
+      "openingDate": "22.08.2026",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/7906752",
+      "description": "Fabricaiton of ICP Vehicle - 1 no.",
+      "emdRate": 0.02,
+      "emdAmount": 35000,
+      "tenderValue": 1750000,
+      "status": "Bid Published",
+      "consignee": "raju.pragada",
+      "tenderDate": "12.08.2026",
+      "openingDate": "27.08.2026",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    }
+  ]
 }
