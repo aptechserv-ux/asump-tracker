@@ -16,6 +16,91 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Sanctioned value taken from P-02 tracker (final); schedule doc shows superseded value 46.58 Cr",
-  "lastSynced": "2026-08-12T04:37:40.704Z",
-  "bids": []
+  "lastSynced": "2026-08-12T14:47:08.133Z",
+  "bids": [
+    {
+      "bidRef": "GEM/2026/B/7864670",
+      "description": "Supply and Installation of CCTV Cameras in 40 Police Stations",
+      "emdRate": 0.02,
+      "emdAmount": 1468000,
+      "tenderValue": 73400000,
+      "status": "Tender Floated",
+      "consignee": "supdt.pcs",
+      "tenderDate": "2026-08-03",
+      "openingDate": "2026-08-19",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/7892732",
+      "description": "Supply and Installation of 2KVA UPS in 1001 Police Stations",
+      "emdRate": 0.02,
+      "emdAmount": 1654000,
+      "tenderValue": 82700000,
+      "status": "Tender Floated",
+      "consignee": "supdt.pcs",
+      "tenderDate": "2026-08-07",
+      "openingDate": "2026-08-19",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/7892821",
+      "description": "Supply of Workstation and UPS for Districts and State Hqrs.",
+      "emdRate": 0.02,
+      "emdAmount": 208000,
+      "tenderValue": 10400000,
+      "status": "Tender Floated",
+      "consignee": "supdt.pcs",
+      "tenderDate": "2026-08-07",
+      "openingDate": "2026-08-19",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/7868510",
+      "description": "Supply of Workstation and UPS for Police Stations",
+      "emdRate": 0.02,
+      "emdAmount": 3512000,
+      "tenderValue": 175600000,
+      "status": "Tender Floated",
+      "consignee": "supdt.pcs",
+      "tenderDate": "2026-08-03",
+      "openingDate": "2026-08-19",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/7894970",
+      "description": "Intergated Security Surveillance - Health Monitoring Solution for CCTV System, Remote Video Monitoring, Event Video Surveillance; Capture Devices,Servers",
+      "emdRate": 0.02,
+      "emdAmount": 2246000,
+      "tenderValue": 112320660,
+      "status": "Tender Floated",
+      "consignee": "supdt.pcs",
+      "tenderDate": "2026-08-08",
+      "openingDate": "2026-08-19",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/7856888",
+      "description": "CCTV Cameras and Surveillance hard disks",
+      "emdRate": 0.02,
+      "emdAmount": 1796000,
+      "tenderValue": 89800000,
+      "status": "Tender Floated",
+      "consignee": "supdt.pcs",
+      "tenderDate": "2026-07-31",
+      "openingDate": "2026-08-19",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    }
+  ]
 }
