@@ -1,7 +1,7 @@
 {
   "projectId": "STRIKE",
   "projectName": "STRIKE - Counter-Terror Tactical Response / OCTOPUS",
-  "category": "ASUMP-existing",
+  "category": "SAP 2026-27",
   "linkedTrackerId": "P-06",
   "sanctionedValue": 108100000,
   "implementingAgency": "OCTOPUS",
@@ -16,7 +16,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Sanctioned value taken from P-06 tracker (final); schedule doc shows superseded value 9.21 Cr",
-  "lastSynced": "2026-08-12T14:47:16.819Z",
+  "lastSynced": "2026-08-12T16:37:43.552Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7884346",
