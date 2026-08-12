@@ -1,7 +1,7 @@
 {
   "projectId": "SENTINEL2",
   "projectName": "SENTINEL 2.0 - Weaponry & BDDS Equipment",
-  "category": "SAP-new",
+  "category": "SAP 2026-27",
   "linkedTrackerId": "",
   "sanctionedValue": 92700000,
   "implementingAgency": "Intelligence Security Wing",
@@ -16,6 +16,6 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "New project - distinct from committed-liability SENTINEL (SENTINELCL) - do not merge",
-  "lastSynced": "2026-08-12T14:47:27.913Z",
+  "lastSynced": "2026-08-12T16:37:50.482Z",
   "bids": []
 }
