@@ -4,6 +4,7 @@
   "category": "SAP 2026-27",
   "linkedTrackerId": "P-01",
   "sanctionedValue": 80000000,
+  "totalTenderValue": 0,
   "implementingAgency": "Technical Services",
   "nodalOfficer": "IGP Technical Services",
   "milestones": {
@@ -16,6 +17,6 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Values match tracker exactly",
-  "lastSynced": "2026-08-13T06:37:36.642Z",
+  "lastSynced": "2026-08-13T08:09:54.714Z",
   "bids": []
 }
