@@ -4,6 +4,7 @@
   "category": "SAP 2026-27",
   "linkedTrackerId": "",
   "sanctionedValue": 92700000,
+  "totalTenderValue": 0,
   "implementingAgency": "Intelligence Security Wing",
   "nodalOfficer": "ADG INT / SP Intelligence Security Wing",
   "milestones": {
@@ -16,6 +17,6 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "New project - distinct from committed-liability SENTINEL (SENTINELCL) - do not merge",
-  "lastSynced": "2026-08-13T06:37:51.779Z",
+  "lastSynced": "2026-08-13T08:10:10.943Z",
   "bids": []
 }
