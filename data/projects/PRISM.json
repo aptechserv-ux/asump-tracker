@@ -4,6 +4,7 @@
   "category": "CommittedLiability-2025-26",
   "linkedTrackerId": "",
   "sanctionedValue": 75000000,
+  "totalTenderValue": 0,
   "implementingAgency": "Law & Order Wing",
   "nodalOfficer": "DIG Law & Order Wing",
   "milestones": {
@@ -16,6 +17,6 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Rs 2.00 Cr GeM bids already floated; balance requirement awaited from L&O",
-  "lastSynced": "2026-08-13T06:38:01.379Z",
+  "lastSynced": "2026-08-13T08:10:21.336Z",
   "bids": []
 }
