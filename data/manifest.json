@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-08-13T06:38:04.452Z",
+  "lastSync": "2026-08-13T08:10:25.335Z",
   "projectCount": 23,
   "projects": [
     {
@@ -8,8 +8,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "P-01",
       "sanctionedValue": 80000000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:36.642Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:09:54.714Z"
     },
     {
       "projectId": "CCTV",
@@ -17,8 +19,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "P-02",
       "sanctionedValue": 549900000,
+      "totalTenderValue": 544220660,
       "bidCount": 6,
-      "lastSynced": "2026-08-13T06:37:37.787Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:09:56.242Z"
     },
     {
       "projectId": "KAVACH",
@@ -26,8 +30,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "P-03",
       "sanctionedValue": 127000000,
+      "totalTenderValue": 100000000,
       "bidCount": 1,
-      "lastSynced": "2026-08-13T06:37:38.831Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:09:57.695Z"
     },
     {
       "projectId": "ICDSO",
@@ -35,8 +41,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "P-04",
       "sanctionedValue": 135100000,
+      "totalTenderValue": 92100000,
       "bidCount": 1,
-      "lastSynced": "2026-08-13T06:37:40.201Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:09:59.130Z"
     },
     {
       "projectId": "UECCR",
@@ -44,8 +52,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "P-05",
       "sanctionedValue": 97600000,
+      "totalTenderValue": 93000000,
       "bidCount": 2,
-      "lastSynced": "2026-08-13T06:37:41.405Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:00.259Z"
     },
     {
       "projectId": "CAD",
@@ -53,8 +63,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "P-07",
       "sanctionedValue": 94500000,
+      "totalTenderValue": 94414000,
       "bidCount": 1,
-      "lastSynced": "2026-08-13T06:37:42.552Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:01.563Z"
     },
     {
       "projectId": "STRIKE",
@@ -62,8 +74,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "P-06",
       "sanctionedValue": 108100000,
+      "totalTenderValue": 68086802,
       "bidCount": 10,
-      "lastSynced": "2026-08-13T06:37:43.825Z"
+      "finalizedBidCount": 1,
+      "lastSynced": "2026-08-13T08:10:02.750Z"
     },
     {
       "projectId": "PRAHAR",
@@ -71,8 +85,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 193200000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:44.852Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:04.434Z"
     },
     {
       "projectId": "MOSAIC",
@@ -80,8 +96,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 45000000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:46.264Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:05.816Z"
     },
     {
       "projectId": "CDMP",
@@ -89,8 +107,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 35000000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:47.512Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:06.875Z"
     },
     {
       "projectId": "SAMUDRARAKSHA",
@@ -98,8 +118,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 99900000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:48.822Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:08.043Z"
     },
     {
       "projectId": "TRACE",
@@ -107,8 +129,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 78900000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:50.013Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:09.647Z"
     },
     {
       "projectId": "SENTINEL2",
@@ -116,8 +140,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 92700000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:51.779Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:10.943Z"
     },
     {
       "projectId": "DRUSTI",
@@ -125,8 +151,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 55300000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:53.531Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:12.164Z"
     },
     {
       "projectId": "GRPSURV",
@@ -134,8 +162,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 38600000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:54.560Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:13.436Z"
     },
     {
       "projectId": "CCTVFORENSIC",
@@ -143,8 +173,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 71100000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:55.589Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:14.667Z"
     },
     {
       "projectId": "MCPVIP",
@@ -152,8 +184,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 56100000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:56.749Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:15.832Z"
     },
     {
       "projectId": "SAARATHI2",
@@ -161,8 +195,10 @@
       "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 32400000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:57.955Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:17.139Z"
     },
     {
       "projectId": "SENTINELCL",
@@ -170,8 +206,10 @@
       "category": "CommittedLiability-2025-26",
       "linkedTrackerId": "",
       "sanctionedValue": 51400000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:37:59.076Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:18.339Z"
     },
     {
       "projectId": "ELITE",
@@ -179,8 +217,10 @@
       "category": "CommittedLiability-2025-26",
       "linkedTrackerId": "",
       "sanctionedValue": 24600000,
+      "totalTenderValue": 18050000,
       "bidCount": 5,
-      "lastSynced": "2026-08-13T06:38:00.287Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:20.026Z"
     },
     {
       "projectId": "PRISM",
@@ -188,8 +228,10 @@
       "category": "CommittedLiability-2025-26",
       "linkedTrackerId": "",
       "sanctionedValue": 75000000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:38:01.379Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:21.336Z"
     },
     {
       "projectId": "AMMOTRAIN",
@@ -197,8 +239,10 @@
       "category": "CommittedLiability-2025-26",
       "linkedTrackerId": "",
       "sanctionedValue": 64900000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:38:02.483Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:22.675Z"
     },
     {
       "projectId": "SPLABS",
@@ -206,8 +250,10 @@
       "category": "CommittedLiability-2025-26",
       "linkedTrackerId": "",
       "sanctionedValue": 167900000,
+      "totalTenderValue": 0,
       "bidCount": 0,
-      "lastSynced": "2026-08-13T06:38:03.604Z"
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T08:10:23.987Z"
     }
   ]
 }
