@@ -4,6 +4,7 @@
   "category": "SAP 2026-27",
   "linkedTrackerId": "",
   "sanctionedValue": 38600000,
+  "totalTenderValue": 0,
   "implementingAgency": "Railways",
   "nodalOfficer": "IGP Railways",
   "milestones": {
@@ -16,6 +17,6 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "New project - not previously tracked",
-  "lastSynced": "2026-08-13T06:37:54.560Z",
+  "lastSynced": "2026-08-13T08:10:13.436Z",
   "bids": []
 }
