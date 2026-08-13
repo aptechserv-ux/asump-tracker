@@ -4,6 +4,7 @@
   "category": "CommittedLiability-2025-26",
   "linkedTrackerId": "",
   "sanctionedValue": 24600000,
+  "totalTenderValue": 18050000,
   "implementingAgency": "OCTOPUS",
   "nodalOfficer": "IGP OCTOPUS",
   "milestones": {
@@ -16,7 +17,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Procurement of 2nd-phase items in progress",
-  "lastSynced": "2026-08-13T06:38:00.287Z",
+  "lastSynced": "2026-08-13T08:10:20.026Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7870959",
