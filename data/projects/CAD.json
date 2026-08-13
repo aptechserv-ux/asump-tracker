@@ -16,14 +16,14 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Values match tracker exactly",
-  "lastSynced": "2026-08-13T04:37:44.375Z",
+  "lastSynced": "2026-08-13T06:37:42.552Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7871272",
       "description": "Procurement of communication equipment for project CAD",
       "emdRate": 0.015,
       "emdAmount": 1467060,
-      "tenderValue": 97804000,
+      "tenderValue": 94414000,
       "status": "BOQ bid published",
       "consignee": "subbarao.tummala",
       "tenderDate": "03.08.2026",
