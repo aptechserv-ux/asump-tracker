@@ -1,7 +1,7 @@
 {
   "projectId": "KAVACH",
   "projectName": "AP KAVACH - AI Crime Analytics Platform",
-  "category": "ASUMP-existing",
+  "category": "SAP 2026-27",
   "linkedTrackerId": "P-03",
   "sanctionedValue": 127000000,
   "implementingAgency": "Technical Services",
@@ -16,6 +16,21 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Sanctioned value taken from P-03 tracker (final",
-  "lastSynced": "2026-08-11T13:18:06.702Z",
-  "bids": []
+  "lastSynced": "2026-08-13T06:37:38.831Z",
+  "bids": [
+    {
+      "bidRef": "GEM/2026/B/7895776",
+      "description": "Selection of an agency for the Design, Development, and Deployment, along with the\nMaintenance of AP KAVACH (Knowledge & Analytics for\nVigilant Augmented Crime Handling) for AP Police Dept.",
+      "emdRate": 0.02,
+      "emdAmount": 2000000,
+      "tenderValue": 100000000,
+      "status": "Tender floated",
+      "consignee": "Supdt.pcs",
+      "tenderDate": "2026-08-09",
+      "openingDate": "2026-08-24",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    }
+  ]
 }

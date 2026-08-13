@@ -1,7 +1,7 @@
 {
   "projectId": "UECCR",
   "projectName": "UECCR - Emergency Command & Control (MDTs E&P)",
-  "category": "ASUMP-existing",
+  "category": "SAP 2026-27",
   "linkedTrackerId": "P-05",
   "sanctionedValue": 97600000,
   "implementingAgency": "Technical Services",
@@ -16,6 +16,35 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Values match tracker closely (9.72 vs 9.76 Cr)",
-  "lastSynced": "2026-08-11T13:18:09.136Z",
-  "bids": []
+  "lastSynced": "2026-08-13T06:37:41.405Z",
+  "bids": [
+    {
+      "bidRef": "GEM/2026/B/7875015",
+      "description": "Smartphones, Active LED Video Wall , Standby\nPower Backup System with AMF , Uninterrupted Power\nBackup System , Managed Distribution Switches , Managed\nUplink Switches",
+      "emdRate": 0.02,
+      "emdAmount": 1640000,
+      "tenderValue": 82000000,
+      "status": "Tender floated",
+      "consignee": "Supdt.pcs",
+      "tenderDate": "2026-08-07",
+      "openingDate": "2026-08-24",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/7854388",
+      "description": "Laptops, Desktop Computer and Professional Display",
+      "emdRate": 0.02,
+      "emdAmount": 220000,
+      "tenderValue": 11000000,
+      "status": "Tender floated",
+      "consignee": "Supdt.pcs",
+      "tenderDate": "2026-07-30",
+      "openingDate": "2026-08-14",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    }
+  ]
 }

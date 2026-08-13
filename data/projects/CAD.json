@@ -1,7 +1,7 @@
 {
   "projectId": "CAD",
   "projectName": "Project CAD - Disaster Communication Network",
-  "category": "ASUMP-existing",
+  "category": "SAP 2026-27",
   "linkedTrackerId": "P-07",
   "sanctionedValue": 94500000,
   "implementingAgency": "Police Communications (PCO)",
@@ -16,6 +16,21 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Values match tracker exactly",
-  "lastSynced": "2026-08-11T13:18:11.566Z",
-  "bids": []
+  "lastSynced": "2026-08-13T06:37:42.552Z",
+  "bids": [
+    {
+      "bidRef": "GEM/2026/B/7871272",
+      "description": "Procurement of communication equipment for project CAD",
+      "emdRate": 0.015,
+      "emdAmount": 1467060,
+      "tenderValue": 94414000,
+      "status": "BOQ bid published",
+      "consignee": "subbarao.tummala",
+      "tenderDate": "03.08.2026",
+      "openingDate": "19.08.2026",
+      "progressPct": null,
+      "remarks": "",
+      "bidUrl": ""
+    }
+  ]
 }

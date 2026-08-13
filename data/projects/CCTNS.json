@@ -1,7 +1,7 @@
 {
   "projectId": "CCTNS",
   "projectName": "CCTNS 2.0 - Data Migration & System Integration",
-  "category": "ASUMP-existing",
+  "category": "SAP 2026-27",
   "linkedTrackerId": "P-01",
   "sanctionedValue": 80000000,
   "implementingAgency": "Technical Services",
@@ -16,6 +16,6 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Values match tracker exactly",
-  "lastSynced": "2026-08-11T13:18:04.348Z",
+  "lastSynced": "2026-08-13T06:37:36.642Z",
   "bids": []
 }

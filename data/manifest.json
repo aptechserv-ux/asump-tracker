@@ -1,168 +1,168 @@
 {
-  "lastSync": "2026-08-11T13:18:34.457Z",
+  "lastSync": "2026-08-13T06:38:04.452Z",
   "projectCount": 23,
   "projects": [
     {
       "projectId": "CCTNS",
       "projectName": "CCTNS 2.0 - Data Migration & System Integration",
-      "category": "ASUMP-existing",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "P-01",
       "sanctionedValue": 80000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:04.348Z"
+      "lastSynced": "2026-08-13T06:37:36.642Z"
     },
     {
       "projectId": "CCTV",
       "projectName": "CCTV Surveillance & Centralized Dashboard/VMS (1029 PSs)",
-      "category": "ASUMP-existing",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "P-02",
       "sanctionedValue": 549900000,
-      "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:05.549Z"
+      "bidCount": 6,
+      "lastSynced": "2026-08-13T06:37:37.787Z"
     },
     {
       "projectId": "KAVACH",
       "projectName": "AP KAVACH - AI Crime Analytics Platform",
-      "category": "ASUMP-existing",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "P-03",
       "sanctionedValue": 127000000,
-      "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:06.702Z"
+      "bidCount": 1,
+      "lastSynced": "2026-08-13T06:37:38.831Z"
     },
     {
       "projectId": "ICDSO",
       "projectName": "ICDSO - Integrated Cyber Defence & Security Ops Centre (renamed ICDSI - Data Centre Upgradation)",
-      "category": "ASUMP-existing",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "P-04",
       "sanctionedValue": 135100000,
-      "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:07.831Z"
+      "bidCount": 1,
+      "lastSynced": "2026-08-13T06:37:40.201Z"
     },
     {
       "projectId": "UECCR",
       "projectName": "UECCR - Emergency Command & Control (MDTs E&P)",
-      "category": "ASUMP-existing",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "P-05",
       "sanctionedValue": 97600000,
-      "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:09.136Z"
-    },
-    {
-      "projectId": "STRIKE",
-      "projectName": "STRIKE - Counter-Terror Tactical Response / OCTOPUS",
-      "category": "ASUMP-existing",
-      "linkedTrackerId": "P-06",
-      "sanctionedValue": 108100000,
-      "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:10.316Z"
+      "bidCount": 2,
+      "lastSynced": "2026-08-13T06:37:41.405Z"
     },
     {
       "projectId": "CAD",
       "projectName": "Project CAD - Disaster Communication Network",
-      "category": "ASUMP-existing",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "P-07",
       "sanctionedValue": 94500000,
-      "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:11.566Z"
+      "bidCount": 1,
+      "lastSynced": "2026-08-13T06:37:42.552Z"
+    },
+    {
+      "projectId": "STRIKE",
+      "projectName": "STRIKE - Counter-Terror Tactical Response / OCTOPUS",
+      "category": "SAP 2026-27",
+      "linkedTrackerId": "P-06",
+      "sanctionedValue": 108100000,
+      "bidCount": 10,
+      "lastSynced": "2026-08-13T06:37:43.825Z"
     },
     {
       "projectId": "PRAHAR",
       "projectName": "PRAHAR - APSP Reorientation & Equipment",
-      "category": "SAP-new",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 193200000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:12.759Z"
+      "lastSynced": "2026-08-13T06:37:44.852Z"
     },
     {
       "projectId": "MOSAIC",
       "projectName": "Mosaic - Decision Intelligence Platform",
-      "category": "SAP-new",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 45000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:14.116Z"
+      "lastSynced": "2026-08-13T06:37:46.264Z"
     },
     {
       "projectId": "CDMP",
       "projectName": "CDMP - Centralized Drone Monitoring Portal",
-      "category": "SAP-new",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 35000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:15.392Z"
+      "lastSynced": "2026-08-13T06:37:47.512Z"
     },
     {
       "projectId": "SAMUDRARAKSHA",
       "projectName": "Project SAMUDRARAKSHA - Coastal Surveillance",
-      "category": "SAP-new",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 99900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:17.386Z"
+      "lastSynced": "2026-08-13T06:37:48.822Z"
     },
     {
       "projectId": "TRACE",
       "projectName": "TRACE - Crime Investigation & Forensics",
-      "category": "SAP-new",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 78900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:18.503Z"
+      "lastSynced": "2026-08-13T06:37:50.013Z"
     },
     {
       "projectId": "SENTINEL2",
       "projectName": "SENTINEL 2.0 - Weaponry & BDDS Equipment",
-      "category": "SAP-new",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 92700000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:19.712Z"
+      "lastSynced": "2026-08-13T06:37:51.779Z"
     },
     {
       "projectId": "DRUSTI",
       "projectName": "DRUSTI - Lawful Interception & Monitoring Upgrade",
-      "category": "SAP-new",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 55300000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:21.197Z"
+      "lastSynced": "2026-08-13T06:37:53.531Z"
     },
     {
       "projectId": "GRPSURV",
       "projectName": "GRP Surveillance & Tactical Equipment (VJA & GTKL)",
-      "category": "SAP-new",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 38600000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:22.780Z"
+      "lastSynced": "2026-08-13T06:37:54.560Z"
     },
     {
       "projectId": "CCTVFORENSIC",
       "projectName": "Centralized CCTV Video Footage Forensic Solution",
-      "category": "SAP-new",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 71100000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:23.918Z"
+      "lastSynced": "2026-08-13T06:37:55.589Z"
     },
     {
       "projectId": "MCPVIP",
       "projectName": "Mobile Command Post (VVIP / Mass Gatherings)",
-      "category": "SAP-new",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 56100000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:25.143Z"
+      "lastSynced": "2026-08-13T06:37:56.749Z"
     },
     {
       "projectId": "SAARATHI2",
       "projectName": "SAARATHI 2.0 - PTO Workshop Modernization",
-      "category": "SAP-new",
+      "category": "SAP 2026-27",
       "linkedTrackerId": "",
       "sanctionedValue": 32400000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:26.776Z"
+      "lastSynced": "2026-08-13T06:37:57.955Z"
     },
     {
       "projectId": "SENTINELCL",
@@ -171,7 +171,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 51400000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:28.014Z"
+      "lastSynced": "2026-08-13T06:37:59.076Z"
     },
     {
       "projectId": "ELITE",
@@ -179,8 +179,8 @@
       "category": "CommittedLiability-2025-26",
       "linkedTrackerId": "",
       "sanctionedValue": 24600000,
-      "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:30.039Z"
+      "bidCount": 5,
+      "lastSynced": "2026-08-13T06:38:00.287Z"
     },
     {
       "projectId": "PRISM",
@@ -189,7 +189,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 75000000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:31.164Z"
+      "lastSynced": "2026-08-13T06:38:01.379Z"
     },
     {
       "projectId": "AMMOTRAIN",
@@ -198,7 +198,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 64900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:32.394Z"
+      "lastSynced": "2026-08-13T06:38:02.483Z"
     },
     {
       "projectId": "SPLABS",
@@ -207,7 +207,7 @@
       "linkedTrackerId": "",
       "sanctionedValue": 167900000,
       "bidCount": 0,
-      "lastSynced": "2026-08-11T13:18:33.558Z"
+      "lastSynced": "2026-08-13T06:38:03.604Z"
     }
   ]
 }
