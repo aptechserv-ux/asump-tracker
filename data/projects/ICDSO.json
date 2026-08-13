@@ -4,6 +4,7 @@
   "category": "SAP 2026-27",
   "linkedTrackerId": "P-04",
   "sanctionedValue": 135100000,
+  "totalTenderValue": 92100000,
   "implementingAgency": "DGP CID / IGP Cyber Crime",
   "nodalOfficer": "DGP CID/IGP Cyber Crime",
   "milestones": {
@@ -16,7 +17,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Confirmed mapping to P-04; project was renamed ICDSO -> ICDSI (Data Centre Upgradation)",
-  "lastSynced": "2026-08-13T06:37:40.201Z",
+  "lastSynced": "2026-08-13T08:09:59.130Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7851769",
