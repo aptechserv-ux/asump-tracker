@@ -1,7 +1,40 @@
 {
-  "lastSync": "2026-08-13T14:39:05.731Z",
-  "projectCount": 16,
+  "lastSync": "2026-08-13T16:38:36.900Z",
+  "projectCount": 23,
   "projects": [
+    {
+      "projectId": "CCTNS",
+      "projectName": "CCTNS 2.0 - Data Migration & System Integration",
+      "category": "SAP 2026-27",
+      "linkedTrackerId": "P-01",
+      "sanctionedValue": 80000000,
+      "totalTenderValue": 0,
+      "bidCount": 0,
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T16:37:52.286Z"
+    },
+    {
+      "projectId": "CCTV",
+      "projectName": "CCTV Surveillance & Centralized Dashboard/VMS (1029 PSs)",
+      "category": "SAP 2026-27",
+      "linkedTrackerId": "P-02",
+      "sanctionedValue": 549900000,
+      "totalTenderValue": 544220660,
+      "bidCount": 6,
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T16:37:54.668Z"
+    },
+    {
+      "projectId": "KAVACH",
+      "projectName": "AP KAVACH - AI Crime Analytics Platform",
+      "category": "SAP 2026-27",
+      "linkedTrackerId": "P-03",
+      "sanctionedValue": 127000000,
+      "totalTenderValue": 100000000,
+      "bidCount": 1,
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T16:37:56.597Z"
+    },
     {
       "projectId": "ICDSO",
       "projectName": "ICDSO - Integrated Cyber Defence & Security Ops Centre (renamed ICDSI - Data Centre Upgradation)",
@@ -11,7 +44,18 @@
       "totalTenderValue": 92100000,
       "bidCount": 1,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:37:55.353Z"
+      "lastSynced": "2026-08-13T16:37:58.625Z"
+    },
+    {
+      "projectId": "UECCR",
+      "projectName": "UECCR - Emergency Command & Control (MDTs E&P)",
+      "category": "SAP 2026-27",
+      "linkedTrackerId": "P-05",
+      "sanctionedValue": 97600000,
+      "totalTenderValue": 93000000,
+      "bidCount": 2,
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T16:38:00.490Z"
     },
     {
       "projectId": "CAD",
@@ -22,7 +66,18 @@
       "totalTenderValue": 94414000,
       "bidCount": 1,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:07.708Z"
+      "lastSynced": "2026-08-13T16:38:02.083Z"
+    },
+    {
+      "projectId": "STRIKE",
+      "projectName": "STRIKE - Counter-Terror Tactical Response / OCTOPUS",
+      "category": "SAP 2026-27",
+      "linkedTrackerId": "P-06",
+      "sanctionedValue": 108100000,
+      "totalTenderValue": 68086802,
+      "bidCount": 10,
+      "finalizedBidCount": 1,
+      "lastSynced": "2026-08-13T16:38:03.515Z"
     },
     {
       "projectId": "PRAHAR",
@@ -33,7 +88,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:19.883Z"
+      "lastSynced": "2026-08-13T16:38:05.694Z"
     },
     {
       "projectId": "MOSAIC",
@@ -44,7 +99,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:22.217Z"
+      "lastSynced": "2026-08-13T16:38:07.354Z"
     },
     {
       "projectId": "CDMP",
@@ -55,7 +110,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:24.994Z"
+      "lastSynced": "2026-08-13T16:38:09.003Z"
     },
     {
       "projectId": "SAMUDRARAKSHA",
@@ -66,7 +121,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:27.546Z"
+      "lastSynced": "2026-08-13T16:38:11.059Z"
     },
     {
       "projectId": "TRACE",
@@ -77,7 +132,18 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:29.129Z"
+      "lastSynced": "2026-08-13T16:38:12.789Z"
+    },
+    {
+      "projectId": "SENTINEL2",
+      "projectName": "SENTINEL 2.0 - Weaponry & BDDS Equipment",
+      "category": "SAP 2026-27",
+      "linkedTrackerId": "",
+      "sanctionedValue": 92700000,
+      "totalTenderValue": 0,
+      "bidCount": 0,
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T16:38:15.075Z"
     },
     {
       "projectId": "DRUSTI",
@@ -88,7 +154,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:37.930Z"
+      "lastSynced": "2026-08-13T16:38:16.890Z"
     },
     {
       "projectId": "GRPSURV",
@@ -99,7 +165,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:41.465Z"
+      "lastSynced": "2026-08-13T16:38:19.193Z"
     },
     {
       "projectId": "CCTVFORENSIC",
@@ -110,7 +176,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:43.141Z"
+      "lastSynced": "2026-08-13T16:38:20.982Z"
     },
     {
       "projectId": "MCPVIP",
@@ -121,7 +187,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:44.674Z"
+      "lastSynced": "2026-08-13T16:38:22.700Z"
     },
     {
       "projectId": "SAARATHI2",
@@ -132,7 +198,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:46.059Z"
+      "lastSynced": "2026-08-13T16:38:24.285Z"
     },
     {
       "projectId": "SENTINELCL",
@@ -143,7 +209,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:47.694Z"
+      "lastSynced": "2026-08-13T16:38:26.509Z"
     },
     {
       "projectId": "ELITE",
@@ -154,7 +220,7 @@
       "totalTenderValue": 18050000,
       "bidCount": 5,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:49.452Z"
+      "lastSynced": "2026-08-13T16:38:28.547Z"
     },
     {
       "projectId": "PRISM",
@@ -165,7 +231,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:50.951Z"
+      "lastSynced": "2026-08-13T16:38:30.598Z"
     },
     {
       "projectId": "AMMOTRAIN",
@@ -176,7 +242,18 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-08-13T14:38:53.199Z"
+      "lastSynced": "2026-08-13T16:38:32.594Z"
+    },
+    {
+      "projectId": "SPLABS",
+      "projectName": "SMART POLICING LABS (Committed Liability)",
+      "category": "CommittedLiability-2025-26",
+      "linkedTrackerId": "",
+      "sanctionedValue": 167900000,
+      "totalTenderValue": 0,
+      "bidCount": 0,
+      "finalizedBidCount": 0,
+      "lastSynced": "2026-08-13T16:38:35.589Z"
     }
   ]
 }
