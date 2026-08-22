@@ -4,7 +4,7 @@
   "category": "CommittedLiability-2025-26",
   "linkedTrackerId": "",
   "sanctionedValue": 24600000,
-  "totalTenderValue": 18050000,
+  "totalTenderValue": 13250000,
   "implementingAgency": "OCTOPUS",
   "nodalOfficer": "IGP OCTOPUS",
   "milestones": {
@@ -17,22 +17,8 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Procurement of 2nd-phase items in progress",
-  "lastSynced": "2026-08-22T10:38:05.928Z",
+  "lastSynced": "2026-08-22T12:38:24.692Z",
   "bids": [
-    {
-      "bidRef": "GEM/2026/B/7870959",
-      "description": "Purchase of Drone with accessories and spare batteries - 3 nos.",
-      "emdRate": "-",
-      "emdAmount": null,
-      "tenderValue": 4800000,
-      "status": "Bid Published",
-      "consignee": "raju.pragada",
-      "tenderDate": "03.08.2026",
-      "openingDate": "17.08.2026",
-      "progressPct": null,
-      "remarks": "",
-      "bidUrl": ""
-    },
     {
       "bidRef": "GEM/2026/B/7871467",
       "description": "Purchase of Night Vision Monoculars - 10 nos.",
@@ -58,7 +44,7 @@
       "tenderDate": "03.08.2026",
       "openingDate": "17.08.2026",
       "progressPct": null,
-      "remarks": "",
+      "remarks": "03 bidders particiapted, PQ & TQ evaluation is under process",
       "bidUrl": ""
     },
     {
@@ -70,7 +56,7 @@
       "status": "Bid Published",
       "consignee": "raju.pragada",
       "tenderDate": "11.08.2026",
-      "openingDate": "22.08.2026",
+      "openingDate": "31.08.2026",
       "progressPct": null,
       "remarks": "",
       "bidUrl": ""
