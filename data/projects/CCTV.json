@@ -17,7 +17,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Sanctioned value taken from P-02 tracker (final); schedule doc shows superseded value 46.58 Cr",
-  "lastSynced": "2026-08-26T08:37:38.399Z",
+  "lastSynced": "2026-08-26T10:37:38.758Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7864670",
@@ -63,7 +63,7 @@
     },
     {
       "bidRef": "GEM/2026/B/7868510",
-      "description": "Supply of Workstation and UPS for Police Stations",
+      "description": "Supply of Workstation and UPS for 1041 Police Stations",
       "emdRate": 0.02,
       "emdAmount": 3512000,
       "tenderValue": 175600000,
@@ -91,7 +91,7 @@
     },
     {
       "bidRef": "GEM/2026/B/7856888",
-      "description": "CCTV Cameras and Surveillance hard disks",
+      "description": "CCTV Cameras and Surveillance hard disks for 1001 PS",
       "emdRate": 0.02,
       "emdAmount": 1796000,
       "tenderValue": 89800000,
