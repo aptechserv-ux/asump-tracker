@@ -17,7 +17,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Procurement of 2nd-phase items in progress",
-  "lastSynced": "2026-09-01T04:37:59.346Z",
+  "lastSynced": "2026-09-01T06:38:38.671Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7871467",
@@ -28,7 +28,7 @@
       "status": "Bid Published",
       "consignee": "raju.pragada",
       "tenderDate": "18.08.2026",
-      "openingDate": "31.08.2026",
+      "openingDate": "03.09.2026",
       "progressPct": null,
       "remarks": "",
       "bidUrl": ""
@@ -58,7 +58,7 @@
       "tenderDate": "11.08.2026",
       "openingDate": "31.08.2026",
       "progressPct": null,
-      "remarks": "",
+      "remarks": "PQ & TQ evaluation is under process",
       "bidUrl": ""
     },
     {
@@ -72,7 +72,7 @@
       "tenderDate": "12.08.2026",
       "openingDate": "27.08.2026",
       "progressPct": null,
-      "remarks": "",
+      "remarks": "PQ & TQ evaluation is under process",
       "bidUrl": ""
     }
   ]
