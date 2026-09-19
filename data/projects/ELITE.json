@@ -17,7 +17,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Procurement of 2nd-phase items in progress",
-  "lastSynced": "2026-09-19T12:38:00.003Z",
+  "lastSynced": "2026-09-19T14:38:02.520Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7871467",
@@ -30,7 +30,7 @@
       "tenderDate": "18.08.2026",
       "openingDate": "03.09.2026",
       "progressPct": null,
-      "remarks": "",
+      "remarks": "None of the firm participated custom bid to be floated",
       "bidUrl": ""
     },
     {
@@ -44,7 +44,7 @@
       "tenderDate": "03.08.2026",
       "openingDate": "17.08.2026",
       "progressPct": null,
-      "remarks": "PQ & TQ evaluation is under process",
+      "remarks": "Price bid  to be opened",
       "bidUrl": ""
     },
     {
@@ -58,7 +58,7 @@
       "tenderDate": "11.08.2026",
       "openingDate": "31.08.2026",
       "progressPct": null,
-      "remarks": "PQ & TQ evaluation is under process",
+      "remarks": "TQ evaluation is under process",
       "bidUrl": ""
     },
     {
@@ -72,7 +72,35 @@
       "tenderDate": "12.08.2026",
       "openingDate": "27.08.2026",
       "progressPct": null,
-      "remarks": "PQ & TQ evaluation is under process",
+      "remarks": "Price bid to be opened",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/7188014",
+      "description": "40 mm Fast Rope",
+      "emdRate": 0.02,
+      "emdAmount": 16800,
+      "tenderValue": null,
+      "status": "Bid Published",
+      "consignee": "raju.pragada",
+      "tenderDate": "03.02.2026",
+      "openingDate": "16.02.2026",
+      "progressPct": null,
+      "remarks": "Purchase Orer issued",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/71886776",
+      "description": "Knee Pads & Elbow Pads ",
+      "emdRate": 0.02,
+      "emdAmount": 12000,
+      "tenderValue": null,
+      "status": "Bid Published",
+      "consignee": "raju.pragada",
+      "tenderDate": "03.02.2026",
+      "openingDate": "16.02.2026",
+      "progressPct": null,
+      "remarks": "Purchase Orer issued",
       "bidUrl": ""
     }
   ]
