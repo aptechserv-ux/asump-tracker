@@ -17,7 +17,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Values match tracker exactly",
-  "lastSynced": "2026-09-21T10:37:48.054Z",
+  "lastSynced": "2026-09-21T12:37:43.771Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7871272",
@@ -30,7 +30,7 @@
       "tenderDate": "03.08.2026",
       "openingDate": "19.08.2026",
       "progressPct": null,
-      "remarks": "",
+      "remarks": "1. PQ opened on 27.08.2026 followed by Techncial evaulation and demonstration, filed testing condcuted from 07.09.2026 to 11.09.2026.\n2. Price bid opened on 17.09.2026, enabled RA\n3. For Schedule 6 retender may be floated.",
       "bidUrl": ""
     }
   ]
