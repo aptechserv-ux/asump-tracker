@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-09-25T00:38:07.227Z",
+  "lastSync": "2026-09-25T02:38:31.114Z",
   "projectCount": 23,
   "projects": [
     {
@@ -11,7 +11,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:37.035Z"
+      "lastSynced": "2026-09-25T02:37:43.179Z"
     },
     {
       "projectId": "CCTV",
@@ -22,7 +22,7 @@
       "totalTenderValue": 544220660,
       "bidCount": 6,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:38.173Z"
+      "lastSynced": "2026-09-25T02:37:46.135Z"
     },
     {
       "projectId": "KAVACH",
@@ -33,7 +33,7 @@
       "totalTenderValue": 100000000,
       "bidCount": 1,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:39.448Z"
+      "lastSynced": "2026-09-25T02:37:48.886Z"
     },
     {
       "projectId": "ICDSO",
@@ -44,7 +44,7 @@
       "totalTenderValue": 92100000,
       "bidCount": 1,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:40.606Z"
+      "lastSynced": "2026-09-25T02:37:51.187Z"
     },
     {
       "projectId": "UECCR",
@@ -55,7 +55,7 @@
       "totalTenderValue": 93000000,
       "bidCount": 2,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:41.714Z"
+      "lastSynced": "2026-09-25T02:37:53.995Z"
     },
     {
       "projectId": "CAD",
@@ -66,7 +66,7 @@
       "totalTenderValue": 94414000,
       "bidCount": 1,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:43.630Z"
+      "lastSynced": "2026-09-25T02:37:57.130Z"
     },
     {
       "projectId": "STRIKE",
@@ -77,7 +77,7 @@
       "totalTenderValue": 68086802,
       "bidCount": 10,
       "finalizedBidCount": 1,
-      "lastSynced": "2026-09-25T00:37:44.707Z"
+      "lastSynced": "2026-09-25T02:37:58.858Z"
     },
     {
       "projectId": "PRAHAR",
@@ -88,7 +88,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:45.833Z"
+      "lastSynced": "2026-09-25T02:38:00.799Z"
     },
     {
       "projectId": "MOSAIC",
@@ -99,7 +99,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:47.516Z"
+      "lastSynced": "2026-09-25T02:38:02.496Z"
     },
     {
       "projectId": "CDMP",
@@ -110,7 +110,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:48.834Z"
+      "lastSynced": "2026-09-25T02:38:04.173Z"
     },
     {
       "projectId": "SAMUDRARAKSHA",
@@ -121,7 +121,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:50.091Z"
+      "lastSynced": "2026-09-25T02:38:06.507Z"
     },
     {
       "projectId": "TRACE",
@@ -132,7 +132,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:51.199Z"
+      "lastSynced": "2026-09-25T02:38:08.050Z"
     },
     {
       "projectId": "SENTINEL2",
@@ -143,7 +143,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:52.574Z"
+      "lastSynced": "2026-09-25T02:38:09.928Z"
     },
     {
       "projectId": "DRUSTI",
@@ -154,7 +154,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:53.723Z"
+      "lastSynced": "2026-09-25T02:38:11.841Z"
     },
     {
       "projectId": "GRPSURV",
@@ -165,7 +165,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:54.889Z"
+      "lastSynced": "2026-09-25T02:38:14.307Z"
     },
     {
       "projectId": "CCTVFORENSIC",
@@ -176,7 +176,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:56.547Z"
+      "lastSynced": "2026-09-25T02:38:15.925Z"
     },
     {
       "projectId": "MCPVIP",
@@ -187,7 +187,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:57.902Z"
+      "lastSynced": "2026-09-25T02:38:17.564Z"
     },
     {
       "projectId": "SAARATHI2",
@@ -198,7 +198,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:37:58.941Z"
+      "lastSynced": "2026-09-25T02:38:19.371Z"
     },
     {
       "projectId": "SENTINELCL",
@@ -209,7 +209,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:38:00.682Z"
+      "lastSynced": "2026-09-25T02:38:21.545Z"
     },
     {
       "projectId": "ELITE",
@@ -220,7 +220,7 @@
       "totalTenderValue": 13250000,
       "bidCount": 6,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:38:02.296Z"
+      "lastSynced": "2026-09-25T02:38:23.379Z"
     },
     {
       "projectId": "PRISM",
@@ -231,7 +231,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:38:03.626Z"
+      "lastSynced": "2026-09-25T02:38:25.381Z"
     },
     {
       "projectId": "AMMOTRAIN",
@@ -242,7 +242,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:38:05.084Z"
+      "lastSynced": "2026-09-25T02:38:27.360Z"
     },
     {
       "projectId": "SPLABS",
@@ -253,7 +253,7 @@
       "totalTenderValue": 0,
       "bidCount": 0,
       "finalizedBidCount": 0,
-      "lastSynced": "2026-09-25T00:38:06.293Z"
+      "lastSynced": "2026-09-25T02:38:29.944Z"
     }
   ]
 }
