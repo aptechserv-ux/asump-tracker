@@ -17,7 +17,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Procurement of 2nd-phase items in progress",
-  "lastSynced": "2026-10-14T08:38:14.722Z",
+  "lastSynced": "2026-10-14T10:38:06.701Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7871467",
@@ -27,10 +27,10 @@
       "tenderValue": 6000000,
       "status": "Bid Published",
       "consignee": "raju.pragada",
-      "tenderDate": "18.08.2026",
-      "openingDate": "03.09.2026",
+      "tenderDate": "26.09.2026",
+      "openingDate": "15.10.2026",
       "progressPct": null,
-      "remarks": "None of the firm participated custom bid to be floated",
+      "remarks": "Re-tenders floated (Custom Bid)",
       "bidUrl": ""
     },
     {
@@ -44,7 +44,7 @@
       "tenderDate": "03.08.2026",
       "openingDate": "17.08.2026",
       "progressPct": null,
-      "remarks": "Price bid  to be opened",
+      "remarks": "P.O. to be placed after getting permisison from C.O.",
       "bidUrl": ""
     },
     {
@@ -58,7 +58,7 @@
       "tenderDate": "11.08.2026",
       "openingDate": "31.08.2026",
       "progressPct": null,
-      "remarks": "TQ evaluation is under process",
+      "remarks": "Price Bid opened",
       "bidUrl": ""
     },
     {
@@ -72,7 +72,7 @@
       "tenderDate": "12.08.2026",
       "openingDate": "27.08.2026",
       "progressPct": null,
-      "remarks": "Price bid to be opened",
+      "remarks": "P.O. to be placed after getting permisison from C.O.",
       "bidUrl": ""
     },
     {
@@ -86,7 +86,7 @@
       "tenderDate": "03.02.2026",
       "openingDate": "16.02.2026",
       "progressPct": null,
-      "remarks": "Purchase Orer issued",
+      "remarks": "Items delivered",
       "bidUrl": ""
     },
     {
