@@ -4,7 +4,7 @@
   "category": "CommittedLiability-2025-26",
   "linkedTrackerId": "",
   "sanctionedValue": 24600000,
-  "totalTenderValue": 13250000,
+  "totalTenderValue": 17695000,
   "implementingAgency": "OCTOPUS",
   "nodalOfficer": "IGP OCTOPUS",
   "milestones": {
@@ -17,7 +17,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Procurement of 2nd-phase items in progress",
-  "lastSynced": "2026-11-02T12:38:14.888Z",
+  "lastSynced": "2026-11-02T14:38:13.303Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7871467",
@@ -30,7 +30,7 @@
       "tenderDate": "26.09.2026",
       "openingDate": "15.10.2026",
       "progressPct": null,
-      "remarks": "Re-tenders floated (Custom Bid)",
+      "remarks": "Technical evaluation under process",
       "bidUrl": ""
     },
     {
@@ -44,7 +44,7 @@
       "tenderDate": "03.08.2026",
       "openingDate": "17.08.2026",
       "progressPct": null,
-      "remarks": "P.O. to be placed after getting permisison from C.O.",
+      "remarks": "P.O. placed and items received",
       "bidUrl": ""
     },
     {
@@ -72,7 +72,7 @@
       "tenderDate": "12.08.2026",
       "openingDate": "27.08.2026",
       "progressPct": null,
-      "remarks": "P.O. to be placed after getting permisison from C.O.",
+      "remarks": "P.O. placed",
       "bidUrl": ""
     },
     {
@@ -86,11 +86,11 @@
       "tenderDate": "03.02.2026",
       "openingDate": "16.02.2026",
       "progressPct": null,
-      "remarks": "Items delivered",
+      "remarks": "P.O. placed and items received",
       "bidUrl": ""
     },
     {
-      "bidRef": "GEM/2026/B/71886776",
+      "bidRef": "GEM/2026/B/7186776",
       "description": "Knee Pads & Elbow Pads ",
       "emdRate": 0.02,
       "emdAmount": 12000,
@@ -100,7 +100,35 @@
       "tenderDate": "03.02.2026",
       "openingDate": "16.02.2026",
       "progressPct": null,
-      "remarks": "Purchase Orer issued",
+      "remarks": "P.O. placed and items received",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/8167169",
+      "description": "Purchaes of Bullet Resistance Jackets - 35 nos.",
+      "emdRate": 0.02,
+      "emdAmount": 76000,
+      "tenderValue": 3850000,
+      "status": "Bid Published",
+      "consignee": "raju.pragada",
+      "tenderDate": "15.10.2026",
+      "openingDate": "28.10.2026",
+      "progressPct": null,
+      "remarks": "PQ under process",
+      "bidUrl": ""
+    },
+    {
+      "bidRef": "GEM/2026/B/8165178",
+      "description": "Purchaes of Bullet Resistance Helmets - 35 nos.",
+      "emdRate": 0.02,
+      "emdAmount": 12000,
+      "tenderValue": 595000,
+      "status": "Bid Published",
+      "consignee": "raju.pragada",
+      "tenderDate": "15.10.2026",
+      "openingDate": "28.10.2026",
+      "progressPct": null,
+      "remarks": "PQ under process",
       "bidUrl": ""
     }
   ]
