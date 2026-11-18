@@ -4,7 +4,7 @@
   "category": "CommittedLiability-2025-26",
   "linkedTrackerId": "",
   "sanctionedValue": 24600000,
-  "totalTenderValue": 17695000,
+  "totalTenderValue": 19145000,
   "implementingAgency": "OCTOPUS",
   "nodalOfficer": "IGP OCTOPUS",
   "milestones": {
@@ -17,7 +17,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Procurement of 2nd-phase items in progress",
-  "lastSynced": "2026-11-18T08:38:30.202Z",
+  "lastSynced": "2026-11-18T10:38:11.473Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7871467",
@@ -72,7 +72,7 @@
       "tenderDate": "12.08.2026",
       "openingDate": "27.08.2026",
       "progressPct": null,
-      "remarks": "P.O. placed",
+      "remarks": "P.O. placed, Work under process",
       "bidUrl": ""
     },
     {
@@ -80,7 +80,7 @@
       "description": "40 mm Fast Rope",
       "emdRate": 0.02,
       "emdAmount": 16800,
-      "tenderValue": null,
+      "tenderValue": 840000,
       "status": "Bid Published",
       "consignee": "raju.pragada",
       "tenderDate": "03.02.2026",
@@ -94,7 +94,7 @@
       "description": "Knee Pads & Elbow Pads ",
       "emdRate": 0.02,
       "emdAmount": 12000,
-      "tenderValue": null,
+      "tenderValue": 610000,
       "status": "Bid Published",
       "consignee": "raju.pragada",
       "tenderDate": "03.02.2026",
@@ -114,7 +114,7 @@
       "tenderDate": "15.10.2026",
       "openingDate": "28.10.2026",
       "progressPct": null,
-      "remarks": "PQ under process",
+      "remarks": "TQ under process",
       "bidUrl": ""
     },
     {
@@ -128,7 +128,7 @@
       "tenderDate": "15.10.2026",
       "openingDate": "28.10.2026",
       "progressPct": null,
-      "remarks": "PQ under process",
+      "remarks": "TQ under process",
       "bidUrl": ""
     }
   ]
