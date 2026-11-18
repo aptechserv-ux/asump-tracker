@@ -4,7 +4,7 @@
   "category": "SAP 2026-27",
   "linkedTrackerId": "P-06",
   "sanctionedValue": 108100000,
-  "totalTenderValue": 68086802,
+  "totalTenderValue": 68084802,
   "implementingAgency": "OCTOPUS",
   "nodalOfficer": "IGP OCTOPUS",
   "milestones": {
@@ -17,7 +17,7 @@
     "commissioningCompleteBy": "2026-12-15"
   },
   "notes": "Sanctioned value taken from P-06 tracker (final); schedule doc shows superseded value 9.21 Cr",
-  "lastSynced": "2026-11-18T08:37:52.340Z",
+  "lastSynced": "2026-11-18T10:37:46.532Z",
   "bids": [
     {
       "bidRef": "GEM/2026/B/7884346",
@@ -44,7 +44,7 @@
       "tenderDate": "03.08.2026",
       "openingDate": "19.08.2026",
       "progressPct": null,
-      "remarks": "TQ evaluation is under process",
+      "remarks": "Purchase order placed",
       "bidUrl": ""
     },
     {
@@ -58,7 +58,7 @@
       "tenderDate": "03.08.2026",
       "openingDate": "19.08.2026",
       "progressPct": null,
-      "remarks": "Purchase Order to be placed",
+      "remarks": "Purchase Order to be placed after getting approval from the DGP, AP",
       "bidUrl": ""
     },
     {
@@ -72,7 +72,7 @@
       "tenderDate": "03.08.2026",
       "openingDate": "19.08.2026",
       "progressPct": null,
-      "remarks": "Price bid opened",
+      "remarks": "Lr. addressed to the DG for reduce the qty within the sanction budget",
       "bidUrl": ""
     },
     {
@@ -86,7 +86,7 @@
       "tenderDate": "26.09.2026",
       "openingDate": "15.10.2026",
       "progressPct": null,
-      "remarks": "Price bid to be opened",
+      "remarks": "Lr. addressed to the DG for reduce the qty within the sanction budget",
       "bidUrl": ""
     },
     {
@@ -100,7 +100,7 @@
       "tenderDate": "03.08.2026",
       "openingDate": "31.08.2026",
       "progressPct": null,
-      "remarks": "Price Bid opened",
+      "remarks": "Lr. addressed to the DG for reduce the qty within the sanction budget",
       "bidUrl": ""
     },
     {
@@ -114,7 +114,7 @@
       "tenderDate": "07.08.2026",
       "openingDate": "03.09.2026",
       "progressPct": null,
-      "remarks": "Purchase Order to be placed",
+      "remarks": "Purchase Order to be placed after getting approval from the DGP, AP",
       "bidUrl": ""
     },
     {
@@ -150,13 +150,13 @@
       "description": "Advanced Life support Evacuation System with Type D equipment",
       "emdRate": "-",
       "emdAmount": null,
-      "tenderValue": 3512000,
+      "tenderValue": 3510000,
       "status": "GeM direct purchase",
       "consignee": "by PTO ",
       "tenderDate": "-",
       "openingDate": "-",
       "progressPct": null,
-      "remarks": "Purchase Order placed, Equipment delivered",
+      "remarks": "Equipment delivered",
       "bidUrl": ""
     }
   ]
